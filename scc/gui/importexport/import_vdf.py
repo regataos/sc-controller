@@ -15,6 +15,7 @@ from scc.foreign.vdf import VDFProfile
 from scc.foreign.vdffz import VDFFZProfile
 from scc.lib.vdf import parse_vdf
 from scc.tools import _, get_profiles_path
+from scc.i18n import _
 
 log = logging.getLogger("IE.ImportVdf")
 
@@ -280,8 +281,8 @@ class ImportVdf:
 		lblASetList    = self.builder.get_object("lblASetList")
 
 		btNext = self.enable_next(True, self.vdf_import_confirmed)
-		btNext.set_label('Apply')
-		btNext.set_use_stock(True)
+		btNext.set_label(_('Apply'))
+		btNext.set_use_stock(False)
 		if len(self._profile.action_sets) > 1:
 			lblASetsNotice.set_visible(True)
 			lblASetList.set_visible(True)

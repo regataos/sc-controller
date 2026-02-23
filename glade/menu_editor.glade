@@ -416,7 +416,7 @@
         <property name="show-close-button">True</property>
         <child>
           <object class="GtkButton" id="btSave">
-            <property name="label">gtk-save</property>
+            <property name="label" translatable="yes">Save</property>
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="can-default">True</property>

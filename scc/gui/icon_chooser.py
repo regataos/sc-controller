@@ -14,6 +14,7 @@ import os
 import traceback
 import logging
 import re
+from scc.i18n import _
 log = logging.getLogger("IconChooser")
 RE_URL = re.compile(r"(.*)(https?://[^ ]+)(.*)")
 DEFAULT_ICON_CATEGORIES = ( "items", "media", "weapons", "system" )
@@ -39,7 +40,7 @@ class IconChooser(Editor, UserDataManager):
 		clIcon.pack_start(crIconName, True)
 		clIcon.set_attributes(cr, icon=1, has_colors=2)
 		clIcon.set_attributes(crIconName, text=0)
-		btUserFolder.set_label("Add icons...")
+		btUserFolder.set_label(_("Add icons..."))
 		btUserFolder.set_uri("file://%s" % (get_menuicons_path(),))
 
 		headerbar(self.builder.get_object("header"))

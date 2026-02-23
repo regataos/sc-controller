@@ -26,6 +26,7 @@ data_files = [
 	("share/mime/packages", [ "scc-mime-types.xml" ]),
 	("share/applications", ["scripts/sc-controller.desktop" ]),
 	("lib/udev/rules.d", glob.glob("scripts/*.rules")),
+	("share/locale/pt_BR/LC_MESSAGES", ["locale/pt_BR/LC_MESSAGES/sc-controller.mo"]),
 ] + [ # menu icons subfolders
 	(
 		"share/scc/images/menu-icons/" + x.split("/")[-1],

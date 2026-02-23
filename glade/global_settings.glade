@@ -1761,7 +1761,7 @@ or even crash.</property>
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="margin-left">30</property>
-                    <property name="label" translatable="yes">If enabled, any device or application compatibile with Retroarch's Remote RetroPad protocol
+                    <property name="label" translatable="yes">If enabled, any device or application compatible with Retroarch's Remote RetroPad protocol
 on network can connect and remote-control this computer as additional gamepad.
 &lt;a href="https://github.com/C0rn3j/sc-controller/wiki/Using-phone-with-Retroarch-as-additional-controller"&gt;See wiki for instructions and more info.&lt;/a&gt;</property>
                     <property name="use-markup">True</property>
@@ -2410,6 +2410,67 @@ grips, triggers, finger positions on both pads and stick angle.</property>
                 <property name="tab-fill">False</property>
               </packing>
             </child>
+                <child>
+      <object class="GtkBox" id="boxLanguage">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="margin_left">12</property>
+        <property name="margin_right">12</property>
+        <property name="margin_top">12</property>
+        <property name="margin_bottom">12</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">12</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Select your preferred language</property>
+            <property name="xalign">0</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkComboBoxText" id="cbLanguage">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">start</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">You need to restart SC Controller for the language change to take effect.</property>
+            <property name="wrap">True</property>
+            <property name="xalign">0</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child type="tab">
+      <object class="GtkLabel">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="label" translatable="yes">Idioma</property>
+      </object>
+      <packing>
+        <property name="tab_fill">False</property>
+      </packing>
+    </child>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -2423,7 +2484,7 @@ grips, triggers, finger positions on both pads and stick angle.</property>
       <object class="GtkHeaderBar" id="header">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
-        <property name="title">Settings</property>
+        <property name="title" translatable="yes">Settings</property>
         <property name="show-close-button">True</property>
       </object>
     </child>
@@ -2720,11 +2781,11 @@ grips, triggers, finger positions on both pads and stick angle.</property>
       <object class="GtkHeaderBar" id="header2">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
-        <property name="title">Edit Condition</property>
+        <property name="title" translatable="yes">Edit Condition</property>
         <property name="show-close-button">True</property>
         <child>
           <object class="GtkButton" id="btSave">
-            <property name="label">gtk-save</property>
+            <property name="label" translatable="yes">Save</property>
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="receives-default">True</property>

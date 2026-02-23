@@ -10,6 +10,7 @@ from scc.gui.parser import GuiActionParser
 from .export import Export
 
 import sys, os, json, tarfile, tempfile, logging
+from scc.i18n import _
 log = logging.getLogger("IE.ImportSSCC")
 
 class ImportSccprofile:
@@ -175,8 +176,8 @@ class ImportSccprofile:
 		cbImportVisible =	self.builder.get_object("cbImportPackageVisible")
 		cbImportNone =		self.builder.get_object("cbImportPackageNone")
 		rvAdvanced =		self.builder.get_object("rvImportPackageAdvanced")
-		btNext.set_label('Apply')
-		btNext.set_use_stock(True)
+		btNext.set_label(_('Apply'))
+		btNext.set_use_stock(False)
 		main_name = txName2.get_text()
 		if self.check_name(main_name):
 			btNext.set_sensitive(True)

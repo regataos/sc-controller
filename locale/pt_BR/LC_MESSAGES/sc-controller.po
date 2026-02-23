@@ -1,0 +1,7620 @@
+# Brazilian Portuguese translation for SC-Controller
+msgid ""
+msgstr "Project-Id-Version: sc-controller\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-02-22 11:00-0300\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+""
+
+msgid "%s %s (reversed)"
+msgstr "%s %s (invertido)"
+
+msgid "%s (copy %s)"
+msgstr "%s (cópia %s)"
+
+msgid "%s (copy)"
+msgstr "%s (cópia)"
+
+msgid "%s (not found)"
+msgstr "%s (não encontrado)"
+
+msgid "%s (with OSD)"
+msgstr "%s (com OSD)"
+
+msgid "%s Button"
+msgstr "Botão %s"
+
+msgid "%s Press"
+msgstr "Pressionar %s"
+
+msgid "%s Trigger"
+msgstr "Gatilho %s"
+
+msgid "%s minutes"
+msgstr "%s minutos"
+
+msgid "%s seconds"
+msgstr "%s segundos"
+
+msgid "%sm %ss"
+msgstr "%sm %ss"
+
+msgid "%s°"
+msgstr "%s°"
+
+msgid "&lt;a href=\"advanced://0#cbBallMode\"&gt;Setup or disable Trackball Mode&lt;/a&gt;"
+msgstr "&lt;a href=\"advanced://0#cbBallMode\"&gt;Configurar ou desativar o Modo Trackball&lt;/a&gt;"
+
+msgid "&lt;b&gt;Code&amp;amp;UI © 2016 Kozec&lt;/b&gt;\n"
+"\n"
+"Source code available on &lt;a href=\"https://github.com/kozec/sc-controller\"&gt;GitHub&lt;/a&gt;\n"
+"\n"
+"I'd like to express my biggest thanks\n"
+"for all my &lt;b&gt;&lt;a href=\"https://www.patreon.com/kozec\"&gt;Patreon&lt;/a&gt;&lt;/b&gt; supporters, with special mention of\n"
+"\n"
+"&lt;b&gt;guido haag&lt;/b&gt;\n"
+"&lt;b&gt;Orivej Desh&lt;/b&gt;\n"
+"&lt;b&gt;G. Wilson&lt;/b&gt;\n"
+"&lt;b&gt;Eric Duhamel&lt;/b&gt;\n"
+"&lt;b&gt;Enric Morales&lt;/b&gt;\n"
+"&lt;b&gt;Joshua M&lt;/b&gt;\n"
+"&lt;b&gt;Lutris&lt;/b&gt;\n"
+"&lt;b&gt;Taowa&lt;/b&gt;\n"
+"and\n"
+"&lt;b&gt;ambidot&lt;/b&gt;\n"
+""
+msgstr "&lt;b&gt;Código e UI © 2016 Kozec&lt;/b&gt;\n"
+"\n"
+"Código fonte disponível no &lt;a href=\"https://github.com/kozec/sc-controller\"&gt;GitHub&lt;/a&gt;\n"
+"\n"
+"Gostaria de expressar meu maior agradecimento\n"
+"a todos os meus apoiadores no &lt;b&gt;&lt;a href=\"https://www.patreon.com/kozec\"&gt;Patreon&lt;/a&gt;&lt;/b&gt;, com menção especial a\n"
+"\n"
+"&lt;b&gt;guido haag&lt;/b&gt;\n"
+"&lt;b&gt;Orivej Desh&lt;/b&gt;\n"
+"&lt;b&gt;G. Wilson&lt;/b&gt;\n"
+"&lt;b&gt;Eric Duhamel&lt;/b&gt;\n"
+"&lt;b&gt;Enric Morales&lt;/b&gt;\n"
+"&lt;b&gt;Joshua M&lt;/b&gt;\n"
+"&lt;b&gt;Lutris&lt;/b&gt;\n"
+"&lt;b&gt;Taowa&lt;/b&gt;\n"
+"e\n"
+"&lt;b&gt;ambidot&lt;/b&gt;\n"
+""
+
+msgid "&lt;b&gt;DS4 Controller&lt;/b&gt;\n"
+"\n"
+"SC-Controller supports DS4 controllers automatically\n"
+"and requires no additional configuration. All you need\n"
+"is to make sure \"DS4 Controller Support\" checkbox\n"
+"is enabled in Settings or here:"
+msgstr "&lt;b&gt;Controle DS4&lt;/b&gt;\n"
+"\n"
+"O SC-Controller suporta controles DS4 automaticamente\n"
+"e não requer configuração adicional. Tudo que você precisa\n"
+"é garantir que a caixa \"Suporte a Controle DS4\"\n"
+"esteja ativada em Configurações ou aqui:"
+
+msgid "&lt;b&gt;Input Configuration&lt;/b&gt;\n"
+"Please, select options that are best describing controller you are configuring."
+msgstr "&lt;b&gt;Configuração de Entrada&lt;/b&gt;\n"
+"Por favor, selecione as opções que melhor descrevem o controle que está configurando."
+
+msgid "&lt;b&gt;Input Mappings&lt;/b&gt;\n"
+"\n"
+"Please, press every button on the controller, push every trigger at least twice and move every stick. Make sure that correct buttons, sticks and triggers on image blinks blue when you do so.\n"
+"\n"
+"If anything is assigned incorrectly, click on button on image to (re)assign physical button to it."
+msgstr "&lt;b&gt;Mapeamentos de Entrada&lt;/b&gt;\n"
+"\n"
+"Pressione cada botão do controle, puxe cada gatilho pelo menos duas vezes e mova cada analógico. Certifique-se de que os botões, analógicos e gatilhos corretos na imagem piscam em azul.\n"
+"\n"
+"Se algo estiver incorreto, clique no botão na imagem para (re)atribuir o botão físico."
+
+msgid "&lt;b&gt;Warning&lt;/b&gt;\n"
+"\n"
+"Profile You are trying to import contains shell actions.\n"
+"Shell action allows to execute any arbitrary shell command\n"
+"and may modify, create or &lt;span color=\"#ff0000\"&gt;&lt;b&gt;delete&lt;/b&gt;&lt;/span&gt; any files, download &lt;span color=\"#ff0000\"&gt;&lt;b&gt;viruses&lt;/b&gt;&lt;/span&gt;\n"
+"or even &lt;span color=\"#ff0000\"&gt;&lt;b&gt;destroy&lt;/b&gt;&lt;/span&gt; some hardware.\n"
+"\n"
+"Please, read list of commands used by imported profile\n"
+"and mark each checkbox to indicate You fully understand\n"
+"what command does before clicking \"Continue.\""
+msgstr "&lt;b&gt;Aviso&lt;/b&gt;\n"
+"\n"
+"O perfil que você está tentando importar contém ações de shell.\n"
+"Ações de shell permitem executar qualquer comando arbitrário\n"
+"e podem modificar, criar ou &lt;span color=\"#ff0000\"&gt;&lt;b&gt;excluir&lt;/b&gt;&lt;/span&gt; arquivos, baixar &lt;span color=\"#ff0000\"&gt;&lt;b&gt;vírus&lt;/b&gt;&lt;/span&gt;\n"
+"ou até &lt;span color=\"#ff0000\"&gt;&lt;b&gt;destruir&lt;/b&gt;&lt;/span&gt; hardware.\n"
+"\n"
+"Por favor, leia os comandos do perfil importado\n"
+"e marque cada caixa confirmando que entende o que faz\n"
+"antes de clicar em \"Continuar.\""
+
+msgid "&lt;small&gt;This program comes with absolutely no warranty.\n"
+"See the &lt;a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\"&gt;GNU General Public License, version 2&lt;/a&gt; for details.&lt;/small&gt;"
+msgstr "&lt;small&gt;Este programa não oferece absolutamente nenhuma garantia.\n"
+"Veja a &lt;a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\"&gt;GNU General Public License, versão 2&lt;/a&gt; para detalhes.&lt;/small&gt;"
+
+msgid "(Controller Default)"
+msgstr "(Padrão do Controle)"
+
+msgid "(changed template)"
+msgstr "(modelo alterado)"
+
+msgid "(changed)"
+msgstr "(alterado)"
+
+msgid "(customized)"
+msgstr "(personalizado)"
+
+msgid "(disabled)"
+msgstr "(desativado)"
+
+msgid "(double-clicked)"
+msgstr "(clique duplo)"
+
+msgid "(held alone)"
+msgstr "(mantido sozinho)"
+
+msgid "(invalid)"
+msgstr "(inválido)"
+
+msgid "(menu)"
+msgstr "(menu)"
+
+msgid "(no action)"
+msgstr "(sem ação)"
+
+msgid "(no button pressed)"
+msgstr "(nenhum botão pressionado)"
+
+msgid "(no icon)"
+msgstr "(sem ícone)"
+
+msgid "(not found)"
+msgstr "(não encontrado)"
+
+msgid "(not set)"
+msgstr "(não definido)"
+
+msgid "(pressed alone)"
+msgstr "(pressionado sozinho)"
+
+msgid "(profile)"
+msgstr "(perfil)"
+
+msgid "(template)"
+msgstr "(modelo)"
+
+msgid "---- Separator ----"
+msgstr "---- Separador ----"
+
+msgid "-tap"
+msgstr "-toque"
+
+msgid "... then"
+msgstr "... então"
+
+msgid "/dev/uinput doesn't exists"
+msgstr "/dev/uinput não existe"
+
+msgid "8-Way"
+msgstr "8 Direções"
+
+msgid "8-Way DPAD"
+msgstr "DPAD 8 Direções"
+
+msgid "<a href=\"advanced://0#cbBallMode\">Setup or disable Trackball Mode</a>"
+msgstr "<a href=\"advanced://0#cbBallMode\">Configurar ou desativar o Modo Trackball</a>"
+
+msgid "<a href='%s'>Click here</a> to check what's new!"
+msgstr "<a href='%s'>Clique aqui</a> para ver as novidades!"
+
+msgid "<a href='%s'>Click here</a> to read release notes."
+msgstr "<a href='%s'>Clique aqui</a> para ler as notas de versão."
+
+msgid "<b>Code&amp;UI © 2016 Kozec</b>\n"
+"\n"
+"Source code available on <a href=\"https://github.com/kozec/sc-controller\">GitHub</a>\n"
+"\n"
+"I'd like to express my biggest thanks\n"
+"for all my <b><a href=\"https://www.patreon.com/kozec\">Patreon</a></b> supporters, with special mention of\n"
+"\n"
+"<b>guido haag</b>\n"
+"<b>Orivej Desh</b>\n"
+"<b>G. Wilson</b>\n"
+"<b>Eric Duhamel</b>\n"
+"<b>Enric Morales</b>\n"
+"<b>Joshua M</b>\n"
+"<b>Lutris</b>\n"
+"<b>Taowa</b>\n"
+"and\n"
+"<b>ambidot</b>\n"
+""
+msgstr "<b>Código e UI © 2016 Kozec</b>\n"
+"\n"
+"Código fonte disponível no <a href=\"https://github.com/kozec/sc-controller\">GitHub</a>\n"
+"\n"
+"Gostaria de expressar meu maior agradecimento\n"
+"a todos os meus apoiadores no <b><a href=\"https://www.patreon.com/kozec\">Patreon</a></b>, com menção especial a\n"
+"\n"
+"<b>guido haag</b>\n"
+"<b>Orivej Desh</b>\n"
+"<b>G. Wilson</b>\n"
+"<b>Eric Duhamel</b>\n"
+"<b>Enric Morales</b>\n"
+"<b>Joshua M</b>\n"
+"<b>Lutris</b>\n"
+"<b>Taowa</b>\n"
+"e\n"
+"<b>ambidot</b>\n"
+""
+
+msgid "<b>DS4 Controller</b>\n"
+"\n"
+"SC-Controller supports DS4 controllers automatically\n"
+"and requires no additional configuration. All you need\n"
+"is to make sure \"DS4 Controller Support\" checkbox\n"
+"is enabled in Settings or here:"
+msgstr "<b>Controle DS4</b>\n"
+"\n"
+"O SC-Controller suporta controles DS4 automaticamente\n"
+"e não requer configuração adicional. Tudo que você precisa\n"
+"é garantir que a caixa \"Suporte a Controle DS4\"\n"
+"esteja ativada em Configurações ou aqui:"
+
+msgid "<b>Input Configuration</b>\n"
+"Please, select options that are best describing controller you are configuring."
+msgstr "<b>Configuração de Entrada</b>\n"
+"Por favor, selecione as opções que melhor descrevem o controle que está configurando."
+
+msgid "<b>Input Mappings</b>\n"
+"\n"
+"Please, press every button on the controller, push every trigger at least twice and move every stick. Make sure that correct buttons, sticks and triggers on image blinks blue when you do so.\n"
+"\n"
+"If anything is assigned incorrectly, click on button on image to (re)assign physical button to it."
+msgstr "<b>Mapeamentos de Entrada</b>\n"
+"\n"
+"Pressione cada botão do controle, puxe cada gatilho pelo menos duas vezes e mova cada analógico. Certifique-se de que os botões, analógicos e gatilhos corretos na imagem piscam em azul.\n"
+"\n"
+"Se algo estiver incorreto, clique no botão na imagem para (re)atribuir o botão físico."
+
+msgid "<b>Warning</b>\n"
+"\n"
+"Profile You are trying to import contains shell actions.\n"
+"Shell action allows to execute any arbitrary shell command\n"
+"and may modify, create or <span color=\"#ff0000\"><b>delete</b></span> any files, download <span color=\"#ff0000\"><b>viruses</b></span>\n"
+"or even <span color=\"#ff0000\"><b>destroy</b></span> some hardware.\n"
+"\n"
+"Please, read list of commands used by imported profile\n"
+"and mark each checkbox to indicate You fully understand\n"
+"what command does before clicking \"Continue.\""
+msgstr "<b>Aviso</b>\n"
+"\n"
+"O perfil que você está tentando importar contém ações de shell.\n"
+"Ações de shell permitem executar qualquer comando arbitrário\n"
+"e podem modificar, criar ou <span color=\"#ff0000\"><b>excluir</b></span> arquivos, baixar <span color=\"#ff0000\"><b>vírus</b></span>\n"
+"ou até <span color=\"#ff0000\"><b>destruir</b></span> hardware.\n"
+"\n"
+"Por favor, leia os comandos do perfil importado\n"
+"e marque cada caixa confirmando que entende o que faz\n"
+"antes de clicar em \"Continuar.\""
+
+msgid "<small>This program comes with absolutely no warranty.\n"
+"See the <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 2</a> for details.</small>"
+msgstr "<small>Este programa não oferece absolutamente nenhuma garantia.\n"
+"Veja a <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, versão 2</a> para detalhes.</small>"
+
+msgid "Abandoned"
+msgstr "Abandonado"
+
+msgid "Abandoning"
+msgstr "Abandonando"
+
+msgid "Abbreviating"
+msgstr "Abreviando"
+
+msgid "Abolishing"
+msgstr "Abolindo"
+
+msgid "Aborted"
+msgstr "Abortado"
+
+msgid "Aborting"
+msgstr "Abortando"
+
+msgid "About"
+msgstr "Sobre"
+
+msgid "About SC-Controller"
+msgstr "Sobre o SC-Controller"
+
+msgid "About SC Controller"
+msgstr "Sobre o SC Controller"
+
+msgid "Above normal"
+msgstr "Acima do normal"
+
+msgid "Absent"
+msgstr "Ausente"
+
+msgid "Absolute"
+msgstr "Absoluto"
+
+msgid "Absolute Circular %s"
+msgstr "Circular Absoluto %s"
+
+msgid "Absolute Mouse"
+msgstr "Mouse Absoluto"
+
+msgid "Absolute Mouse (Finger 1)"
+msgstr "Mouse Absoluto (Dedo 1)"
+
+msgid "Absolute Mouse (Finger 2)"
+msgstr "Mouse Absoluto (Dedo 2)"
+
+msgid "Absorbed into"
+msgstr "Absorvido em"
+
+msgid "Accentuating"
+msgstr "Acentuando"
+
+msgid "Acceptable"
+msgstr "Aceitável"
+
+msgid "Accepting"
+msgstr "Aceitando"
+
+msgid "Access Mode"
+msgstr "Modo de Acesso"
+
+msgid "Access denied"
+msgstr "Acesso negado"
+
+msgid "Access level"
+msgstr "Nível de acesso"
+
+msgid "Accessed"
+msgstr "Acessado"
+
+msgid "Account"
+msgstr "Conta"
+
+msgid "Achievement"
+msgstr "Conquista"
+
+msgid "Acknowledging"
+msgstr "Reconhecendo"
+
+msgid "Acting"
+msgstr "Agindo"
+
+msgid "Action"
+msgstr "Ação"
+
+msgid "Action Name"
+msgstr "Nome da Ação"
+
+msgid "Action Set"
+msgstr "Conjunto de Ações"
+
+msgid "Action Sets"
+msgstr "Conjuntos de Ações"
+
+msgid "Action Type"
+msgstr "Tipo de Ação"
+
+msgid "Activate"
+msgstr "Ativar"
+
+msgid "Activate Profile"
+msgstr "Ativar Perfil"
+
+msgid "Activating"
+msgstr "Ativando"
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Actual"
+msgstr "Real"
+
+msgid "Actual size"
+msgstr "Tamanho real"
+
+msgid "Adaptation"
+msgstr "Adaptação"
+
+msgid "Adapting"
+msgstr "Adaptando"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Add Controller"
+msgstr "Adicionar Controle"
+
+msgid "Add Delay"
+msgstr "Adicionar Atraso"
+
+msgid "Add List of All _Profiles"
+msgstr "Adicionar Lista de Todos os _Perfis"
+
+msgid "Add List of _Games"
+msgstr "Adicionar Lista de _Jogos"
+
+msgid "Add List of _Recent Profiles"
+msgstr "Adicionar Lista de Perfis _Recentes"
+
+msgid "Add SSeparator"
+msgstr "Adicionar Separador"
+
+msgid "Add Su_bmenu"
+msgstr "Adicionar Su_bmenu"
+
+msgid "Add _Action"
+msgstr "Adicionar _Ação"
+
+msgid "Add _Item"
+msgstr "Adicionar _Item"
+
+msgid "Add _Separator"
+msgstr "Adicionar _Separador"
+
+msgid "Add profile"
+msgstr "Adicionar perfil"
+
+msgid "Adding"
+msgstr "Adicionando"
+
+msgid "Adjusting"
+msgstr "Ajustando"
+
+msgid "Adjustment"
+msgstr "Ajuste"
+
+msgid "Admin"
+msgstr "Administrador"
+
+msgid "Administering"
+msgstr "Administrando"
+
+msgid "Administrator"
+msgstr "Administrador"
+
+msgid "Admitting"
+msgstr "Admitindo"
+
+msgid "Adoring"
+msgstr "Adorando"
+
+msgid "Advanced"
+msgstr "Avançado"
+
+msgid "Advanced Options"
+msgstr "Opções Avançadas"
+
+msgid "Advanced..."
+msgstr "Avançado..."
+
+msgid "Advancing"
+msgstr "Avançando"
+
+msgid "Advancing toward"
+msgstr "Avançando em direção a"
+
+msgid "Advice"
+msgstr "Conselho"
+
+msgid "Advising"
+msgstr "Aconselhando"
+
+msgid "Affirming"
+msgstr "Afirmando"
+
+msgid "Afflicted"
+msgstr "Aflito"
+
+msgid "Agreed on"
+msgstr "Acordado sobre"
+
+msgid "Agreement"
+msgstr "Acordo"
+
+msgid "Aiding"
+msgstr "Auxiliando"
+
+msgid "Ailing"
+msgstr "Doente"
+
+msgid "Aiming for"
+msgstr "Mirando em"
+
+msgid "Alert"
+msgstr "Alerta"
+
+msgid "Alerting"
+msgstr "Alertando"
+
+msgid "Alighting"
+msgstr "Pousando"
+
+msgid "Align"
+msgstr "Alinhar"
+
+msgid "Alignment"
+msgstr "Alinhamento"
+
+msgid "All"
+msgstr "Todos"
+
+msgid "Allocating"
+msgstr "Alocando"
+
+msgid "Allowing"
+msgstr "Permitindo"
+
+msgid "Allows applications to &lt;b&gt;watch and possibly log&lt;/b&gt; gamepad inputs."
+msgstr "Permite que aplicativos <b>observem e possivelmente registrem</b> as entradas do gamepad."
+
+msgid "Allows applications to &lt;b&gt;watch and possibly log&lt;/b&gt; gamepad inputs.\n"
+"\n"
+"When enabled, main application window will display pressed buttons,\n"
+"grips, triggers, finger positions on both pads and stick angle."
+msgstr "Permite que aplicativos &lt;b&gt;observem e possivelmente registrem&lt;/b&gt; as entradas do gamepad.\n"
+"\n"
+"Quando ativado, a janela principal exibirá botões pressionados,\n"
+"grips, gatilhos, posições dos dedos nos pads e ângulo do analógico."
+
+msgid "Allows applications to <b>watch and possibly log</b> gamepad inputs."
+msgstr "Permite que aplicativos <b>observem e possivelmente registrem</b> as entradas do gamepad."
+
+msgid "Allows applications to <b>watch and possibly log</b> gamepad inputs.\n"
+"\n"
+"When enabled, main application window will display pressed buttons,\n"
+"grips, triggers, finger positions on both pads and stick angle."
+msgstr "Permite que aplicativos <b>observem e possivelmente registrem</b> as entradas do gamepad.\n"
+"\n"
+"Quando ativado, a janela principal exibirá botões pressionados,\n"
+"grips, gatilhos, posições dos dedos nos pads e ângulo do analógico."
+
+msgid "Always"
+msgstr "Sempre"
+
+msgid "Always Active"
+msgstr "Sempre Ativo"
+
+msgid "Amending"
+msgstr "Corrigindo"
+
+msgid "Amplifying"
+msgstr "Amplificando"
+
+msgid "Analog Output"
+msgstr "Saída Analógica"
+
+msgid "Analog Range End"
+msgstr "Fim do Intervalo Analógico"
+
+msgid "Analog Range Start"
+msgstr "Início do Intervalo Analógico"
+
+msgid "Analog Stick"
+msgstr "Analógico"
+
+msgid "Analyzing"
+msgstr "Analisando"
+
+msgid "Anchored in"
+msgstr "Ancorado em"
+
+msgid "Anchored to"
+msgstr "Ancorado a"
+
+msgid "And"
+msgstr "E"
+
+msgid "Angle"
+msgstr "Ângulo"
+
+msgid "Annihilating"
+msgstr "Aniquilando"
+
+msgid "Annotation"
+msgstr "Anotação"
+
+msgid "Announcement"
+msgstr "Anúncio"
+
+msgid "Announcing"
+msgstr "Anunciando"
+
+msgid "Annulling"
+msgstr "Anulando"
+
+msgid "Another application (most likely Steam) is using the controller."
+msgstr "Outro aplicativo (provavelmente o Steam) está usando o controle."
+
+msgid "Answering"
+msgstr "Respondendo"
+
+msgid "Anticipating"
+msgstr "Antecipando"
+
+msgid "Anxious"
+msgstr "Ansioso"
+
+msgid "Any gamepad button"
+msgstr "Qualquer botão do gamepad"
+
+msgid "Appearance"
+msgstr "Aparência"
+
+msgid "Appearing"
+msgstr "Aparecendo"
+
+msgid "Appending"
+msgstr "Anexando"
+
+msgid "Appendix"
+msgstr "Apêndice"
+
+msgid "Applauding"
+msgstr "Aplaudindo"
+
+msgid "Applied to everything, even if profile sets no rotation on its actions"
+msgstr "Aplicado a tudo, mesmo que o perfil não defina rotação nas suas ações"
+
+msgid "Applied to everything, even if profile sets no rotation on its actions."
+msgstr "Aplicado a tudo, mesmo que o perfil não defina rotação nas suas ações."
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "Apply on Release"
+msgstr "Aplicar ao Soltar"
+
+msgid "Applying"
+msgstr "Aplicando"
+
+msgid "Appreciating"
+msgstr "Apreciando"
+
+msgid "Approaching"
+msgstr "Aproximando"
+
+msgid "Approving"
+msgstr "Aprovando"
+
+msgid "Approximate"
+msgstr "Aproximado"
+
+msgid "Arching"
+msgstr "Arqueando"
+
+msgid "Archiving"
+msgstr "Arquivando"
+
+msgid "Are you sure?"
+msgstr "Tem certeza?"
+
+msgid "Arguing"
+msgstr "Argumentando"
+
+msgid "Arising"
+msgstr "Levantando"
+
+msgid "Arising from"
+msgstr "Surgindo de"
+
+msgid "Arising out of"
+msgstr "Surgindo de"
+
+msgid "Arming"
+msgstr "Armando"
+
+msgid "Arranging"
+msgstr "Organizando"
+
+msgid "Arriving"
+msgstr "Chegando"
+
+msgid "Arrows (DPAD)"
+msgstr "Setas (DPAD)"
+
+msgid "Article"
+msgstr "Artigo"
+
+msgid "Articulating"
+msgstr "Articulando"
+
+msgid "Ascending"
+msgstr "Ascendendo"
+
+msgid "Asking"
+msgstr "Perguntando"
+
+msgid "Assembling"
+msgstr "Montando"
+
+msgid "Asserting"
+msgstr "Afirmando"
+
+msgid "Assessing"
+msgstr "Avaliando"
+
+msgid "Assign it here:"
+msgstr "Atribuir aqui:"
+
+msgid "Assigning"
+msgstr "Atribuindo"
+
+msgid "Assimilated into"
+msgstr "Assimilado em"
+
+msgid "Assisting"
+msgstr "Assistindo"
+
+msgid "Associating"
+msgstr "Associando"
+
+msgid "Asymmetrical"
+msgstr "Assimétrico"
+
+msgid "Attached to"
+msgstr "Anexado a"
+
+msgid "Attaching"
+msgstr "Anexando"
+
+msgid "Atualizar"
+msgstr "Atualizar"
+
+msgid "Authentication"
+msgstr "Autenticação"
+
+msgid "Authorization"
+msgstr "Autorização"
+
+msgid "Authorizing"
+msgstr "Autorizando"
+
+msgid "Auto"
+msgstr "Automático"
+
+msgid "Automatic"
+msgstr "Automático"
+
+msgid "Automatic Profile Switching Options"
+msgstr "Opções de Troca Automática de Perfil"
+
+msgid "Automatically Disable Emulation When Closing GUI"
+msgstr "Desativar Emulação Automaticamente ao Fechar a Interface"
+
+msgid "Automatically turn off when inactive for"
+msgstr "Desligar automaticamente quando inativo por"
+
+msgid "Autoswitch options"
+msgstr "Opções de troca automática"
+
+msgid "Autoswitcher"
+msgstr "Troca automática"
+
+msgid "Available"
+msgstr "Disponível"
+
+msgid "Average"
+msgstr "Média"
+
+msgid "Avoiding"
+msgstr "Evitando"
+
+msgid "Awaiting"
+msgstr "Aguardando"
+
+msgid "Axis"
+msgstr "Eixo"
+
+msgid "Axis Action"
+msgstr "Ação de Eixo"
+
+msgid "Axis Deadzone"
+msgstr "Zona Morta do Eixo"
+
+msgid "Axis Feedback"
+msgstr "Resposta do Eixo"
+
+msgid "Back"
+msgstr "Voltar"
+
+msgid "Back (select)"
+msgstr "Voltar (select)"
+
+msgid "Background"
+msgstr "Fundo"
+
+msgid "Background process responsible for emulation is not starting.\n"
+"\n"
+"Try executing \"scc-daemon debug\" in terminal window to check for any errors\"\n"
+"\t\t\t\t\"\n"
+"or <a href='https://github.com/kozec/sc-controller/issues'>open issue on GitHub</a> and copy output there."
+msgstr "O processo em segundo plano responsável pela emulação não está iniciando.\n"
+"\n"
+"Tente executar \"scc-daemon debug\" em um terminal para verificar erros\n"
+"ou <a href='https://github.com/kozec/sc-controller/issues'>abra uma issue no GitHub</a> e cole o resultado lá."
+
+msgid "Backing"
+msgstr "Apoiando"
+
+msgid "Backing away"
+msgstr "Recuando"
+
+msgid "Backing up"
+msgstr "Fazendo backup"
+
+msgid "Bad"
+msgstr "Péssimo"
+
+msgid "Balancing"
+msgstr "Equilibrando"
+
+msgid "Ball Mode"
+msgstr "Modo Trackball"
+
+msgid "Ball Mode (Trackball)"
+msgstr "Modo Trackball"
+
+msgid "Baring"
+msgstr "Expondo"
+
+msgid "Barring"
+msgstr "Barrando"
+
+msgid "Based on"
+msgstr "Baseado em"
+
+msgid "Basics"
+msgstr "Básico"
+
+msgid "Battered"
+msgstr "Espancado"
+
+msgid "Battery"
+msgstr "Bateria"
+
+msgid "Battling"
+msgstr "Batalhando"
+
+msgid "Beaming"
+msgstr "Radiante"
+
+msgid "Bearing"
+msgstr "Portando"
+
+msgid "Bearing down on"
+msgstr "Aproximando de"
+
+msgid "Beaten"
+msgstr "Batido"
+
+msgid "Beautifying"
+msgstr "Embelezando"
+
+msgid "Beginning"
+msgstr "Começando"
+
+msgid "Begrudging"
+msgstr "Invejando"
+
+msgid "Behaving"
+msgstr "Comportando-se"
+
+msgid "Behavior"
+msgstr "Comportamento"
+
+msgid "Being"
+msgstr "Sendo"
+
+msgid "Being last"
+msgstr "Sendo o último"
+
+msgid "Below normal"
+msgstr "Abaixo do normal"
+
+msgid "Bending"
+msgstr "Dobrando"
+
+msgid "Bent on"
+msgstr "Decidido a"
+
+msgid "Between"
+msgstr "Entre"
+
+msgid "Bind to Controller"
+msgstr "Vincular ao Controle"
+
+msgid "Binding"
+msgstr "Vinculando"
+
+msgid "Bindings"
+msgstr "Atribuições"
+
+msgid "Blended into"
+msgstr "Mesclado em"
+
+msgid "Blocked"
+msgstr "Bloqueado"
+
+msgid "Blocker"
+msgstr "Bloqueador"
+
+msgid "Blocking out"
+msgstr "Bloqueando"
+
+msgid "Blotting out"
+msgstr "Apagando"
+
+msgid "Blowing"
+msgstr "Soprando"
+
+msgid "Blue"
+msgstr "Azul"
+
+msgid "Blurring"
+msgstr "Borrando"
+
+msgid "Bolstering"
+msgstr "Reforçando"
+
+msgid "Bookmark"
+msgstr "Favorito"
+
+msgid "Boosting"
+msgstr "Impulsionando"
+
+msgid "Border"
+msgstr "Borda"
+
+msgid "Both"
+msgstr "Ambos"
+
+msgid "Both Triggers"
+msgstr "Ambos os Gatilhos"
+
+msgid "Bottom"
+msgstr "Inferior"
+
+msgid "Bound for"
+msgstr "Com destino a"
+
+msgid "Bound to"
+msgstr "Ligado a"
+
+msgid "Bounded"
+msgstr "Delimitado"
+
+msgid "Bounding"
+msgstr "Delimitando"
+
+msgid "Bowing"
+msgstr "Curvando"
+
+msgid "Bracing"
+msgstr "Reforçando"
+
+msgid "Breathing"
+msgstr "Respirando"
+
+msgid "Bridging"
+msgstr "Conectando"
+
+msgid "Brightness"
+msgstr "Brilho"
+
+msgid "Brimming"
+msgstr "Transbordando"
+
+msgid "Bringing out"
+msgstr "Trazendo para fora"
+
+msgid "Bringing to light"
+msgstr "Trazendo à luz"
+
+msgid "Bringing up"
+msgstr "Criando"
+
+msgid "Bringing up the rear"
+msgstr "Ficando por último"
+
+msgid "Broadcasting"
+msgstr "Transmitindo"
+
+msgid "Broadening"
+msgstr "Ampliando"
+
+msgid "Broken"
+msgstr "Quebrado"
+
+msgid "Browse"
+msgstr "Navegar"
+
+msgid "Browsing"
+msgstr "Navegando"
+
+msgid "Bruised"
+msgstr "Machucado"
+
+msgid "Bugfix"
+msgstr "Correção de bug"
+
+msgid "Build"
+msgstr "Compilação"
+
+msgid "Building"
+msgstr "Construindo"
+
+msgid "Bulletin"
+msgstr "Boletim"
+
+msgid "Burdened"
+msgstr "Sobrecarregado"
+
+msgid "Button"
+msgstr "Botão"
+
+msgid "Button Chord"
+msgstr "Combinação de Botões"
+
+msgid "Button Hold"
+msgstr "Segurar Botão"
+
+msgid "Button Press"
+msgstr "Pressionar Botão"
+
+msgid "Button disables Gyro"
+msgstr "Botão desativa Giroscópio"
+
+msgid "Buttressing"
+msgstr "Reforçando"
+
+msgid "Bypassing"
+msgstr "Contornando"
+
+msgid "C_lear"
+msgstr "_Limpar"
+
+msgid "Cackling"
+msgstr "Gargalhando"
+
+msgid "Calculated"
+msgstr "Calculado"
+
+msgid "Calibration"
+msgstr "Calibração"
+
+msgid "Calling"
+msgstr "Chamando"
+
+msgid "Calling attention to"
+msgstr "Chamando atenção para"
+
+msgid "Calming"
+msgstr "Acalmando"
+
+msgid "Camouflaging"
+msgstr "Camuflando"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Cancel Button"
+msgstr "Botão de Cancelamento"
+
+msgid "Cancel menu when pad is released"
+msgstr "Cancelar menu ao soltar o pad"
+
+msgid "Canceled"
+msgstr "Cancelado"
+
+msgid "Canceling"
+msgstr "Cancelando"
+
+msgid "Canceling out"
+msgstr "Cancelando"
+
+msgid "Cannot load file '%s'"
+msgstr "Não é possível carregar o arquivo '%s'"
+
+msgid "Cannot open file"
+msgstr "Não é possível abrir o arquivo"
+
+msgid "Capturing"
+msgstr "Capturando"
+
+msgid "Caring for"
+msgstr "Cuidando"
+
+msgid "Carrying"
+msgstr "Carregando"
+
+msgid "Casting off"
+msgstr "Descartando"
+
+msgid "Catching"
+msgstr "Pegando"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Caution"
+msgstr "Cuidado"
+
+msgid "Cautioning"
+msgstr "Alertando"
+
+msgid "Ceased"
+msgstr "Cessado"
+
+msgid "Celebrating"
+msgstr "Celebrando"
+
+msgid "CemuHook motion provider"
+msgstr "Provedor de movimento CemuHook"
+
+msgid "Center"
+msgstr "Centro"
+
+msgid "Centered in"
+msgstr "Centrado em"
+
+msgid "Centering on"
+msgstr "Centrando em"
+
+msgid "Certification"
+msgstr "Certificação"
+
+msgid "Challenging"
+msgstr "Desafiando"
+
+msgid "Change Buttons"
+msgstr "Alterar Botões"
+
+msgid "Change Profile"
+msgstr "Mudar Perfil"
+
+msgid "Change Sticks and Background"
+msgstr "Alterar Analógicos e Fundo"
+
+msgid "Change mapping for _Moving stick"
+msgstr "Alterar mapeamento para _Mover analógico"
+
+msgid "Change mapping for _Pressing stick"
+msgstr "Alterar mapeamento para _Pressionar analógico"
+
+msgid "Change will be applied after emulation is restarted."
+msgstr "A mudança será aplicada após reiniciar a emulação."
+
+msgid "Change will be applied after emulation is restarted.\n"
+"If you have any games running, restarting emulation will\n"
+"\"unplug\" virtual gamepad, what may cause them to ignore \n"
+"future inputs or even crash."
+msgstr "A mudança será aplicada após reiniciar a emulação.\n"
+"Se houver jogos em execução, reiniciar a emulação irá\n"
+"\"desconectar\" o gamepad virtual, o que pode fazer os jogos ignorarem\n"
+"entradas futuras ou até travar."
+
+msgid "Changed"
+msgstr "Alterado"
+
+msgid "Changes saved"
+msgstr "Alterações salvas"
+
+msgid "Changing"
+msgstr "Alterando"
+
+msgid "Chapter"
+msgstr "Capítulo"
+
+msgid "Character"
+msgstr "Caractere"
+
+msgid "Chatting"
+msgstr "Conversando"
+
+msgid "Check if this button is pressed"
+msgstr "Verificar se este botão está pressionado"
+
+msgid "Checking"
+msgstr "Verificando"
+
+msgid "Checking emulation status..."
+msgstr "Verificando status da emulação..."
+
+msgid "Checksum"
+msgstr "Soma de verificação"
+
+msgid "Cherishing"
+msgstr "Valorizando"
+
+msgid "Choose"
+msgstr "Escolher"
+
+msgid "Choose Action"
+msgstr "Escolher Ação"
+
+msgid "Choose Profile"
+msgstr "Escolher Perfil"
+
+msgid "Choosing"
+msgstr "Escolhendo"
+
+msgid "Chuckling"
+msgstr "Rindo"
+
+msgid "Circle"
+msgstr "Círculo"
+
+msgid "Clarifying"
+msgstr "Esclarecendo"
+
+msgid "Class"
+msgstr "Classe"
+
+msgid "Classic"
+msgstr "Clássico"
+
+msgid "Cleanup"
+msgstr "Limpeza"
+
+msgid "Clear"
+msgstr "Limpar"
+
+msgid "Clear Above Settings"
+msgstr "Limpar Configurações Acima"
+
+msgid "Clearing"
+msgstr "Limpando"
+
+msgid "Click"
+msgstr "Clique"
+
+msgid "Click Action"
+msgstr "Ação de Clique"
+
+msgid "Click here to add another profile"
+msgstr "Clique aqui para adicionar outro perfil"
+
+msgid "Climbing"
+msgstr "Subindo"
+
+msgid "Cloaking"
+msgstr "Encobrindo"
+
+msgid "Cloning"
+msgstr "Clonando"
+
+msgid "Close"
+msgstr "Fechar"
+
+msgid "Closing"
+msgstr "Fechando"
+
+msgid "Closing in on"
+msgstr "Aproximando de"
+
+msgid "Clouding"
+msgstr "Obscurecendo"
+
+msgid "Clutching"
+msgstr "Agarrando"
+
+msgid "Coaching"
+msgstr "Treinando"
+
+msgid "Collapse"
+msgstr "Recolher"
+
+msgid "Color"
+msgstr "Cor"
+
+msgid "Color Preset"
+msgstr "Predefinição de Cor"
+
+msgid "Coloring"
+msgstr "Colorindo"
+
+msgid "Combating"
+msgstr "Combatendo"
+
+msgid "Combined with"
+msgstr "Combinado com"
+
+msgid "Combining"
+msgstr "Combinando"
+
+msgid "Comforting"
+msgstr "Confortando"
+
+msgid "Coming"
+msgstr "Vindo"
+
+msgid "Coming back"
+msgstr "Voltando"
+
+msgid "Coming forward"
+msgstr "Apresentando-se"
+
+msgid "Coming from"
+msgstr "Vindo de"
+
+msgid "Coming last"
+msgstr "Vindo por último"
+
+msgid "Coming up short"
+msgstr "Ficando aquém"
+
+msgid "Command"
+msgstr "Comando"
+
+msgid "Command Failed"
+msgstr "Comando falhou"
+
+msgid "Commanding"
+msgstr "Comandando"
+
+msgid "Commemorating"
+msgstr "Comemorando"
+
+msgid "Commencing"
+msgstr "Começando"
+
+msgid "Commending"
+msgstr "Elogiando"
+
+msgid "Comment"
+msgstr "Comentário"
+
+msgid "Committed to"
+msgstr "Comprometido com"
+
+msgid "Compacting"
+msgstr "Compactando"
+
+msgid "Company"
+msgstr "Empresa"
+
+msgid "Compatibility"
+msgstr "Compatibilidade"
+
+msgid "Compensating"
+msgstr "Compensando"
+
+msgid "Competing"
+msgstr "Competindo"
+
+msgid "Compiling"
+msgstr "Compilando"
+
+msgid "Complaining"
+msgstr "Reclamando"
+
+msgid "Complete"
+msgstr "Completo"
+
+msgid "Completed"
+msgstr "Concluído"
+
+msgid "Completing"
+msgstr "Completando"
+
+msgid "Complimenting"
+msgstr "Elogiando"
+
+msgid "Component"
+msgstr "Componente"
+
+msgid "Composing"
+msgstr "Compondo"
+
+msgid "Comprehending"
+msgstr "Compreendendo"
+
+msgid "Compressing"
+msgstr "Comprimindo"
+
+msgid "Compression"
+msgstr "Compressão"
+
+msgid "Comprising"
+msgstr "Compreendendo"
+
+msgid "Concealing"
+msgstr "Ocultando"
+
+msgid "Concentrated in"
+msgstr "Concentrado em"
+
+msgid "Concentrating on"
+msgstr "Concentrando em"
+
+msgid "Concerned"
+msgstr "Preocupado"
+
+msgid "Concluded"
+msgstr "Concluído"
+
+msgid "Concluding"
+msgstr "Concluindo"
+
+msgid "Conclusion"
+msgstr "Conclusão"
+
+msgid "Condensing"
+msgstr "Condensando"
+
+msgid "Condition"
+msgstr "Condição"
+
+msgid "Conditions"
+msgstr "Condições"
+
+msgid "Configuration"
+msgstr "Configuração"
+
+msgid "Configure"
+msgstr "Configurar"
+
+msgid "Configure Controller"
+msgstr "Configurar Controle"
+
+msgid "Configuring"
+msgstr "Configurando"
+
+msgid "Confining"
+msgstr "Confinando"
+
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgid "Confirm Button"
+msgstr "Botão de Confirmação"
+
+msgid "Confirm selection by clicking the pad"
+msgstr "Confirmar seleção clicando no pad"
+
+msgid "Confirm selection by releasing the button"
+msgstr "Confirmar seleção ao soltar o botão"
+
+msgid "Confirm selection when pad is released"
+msgstr "Confirmar seleção ao soltar o pad"
+
+msgid "Confirming"
+msgstr "Confirmando"
+
+msgid "Confronting"
+msgstr "Confrontando"
+
+msgid "Congratulating"
+msgstr "Parabenizando"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "Connected"
+msgstr "Conectado"
+
+msgid "Connected to"
+msgstr "Conectado a"
+
+msgid "Connecting"
+msgstr "Conectando"
+
+msgid "Conserving"
+msgstr "Conservando"
+
+msgid "Consisting"
+msgstr "Consistindo"
+
+msgid "Consoling"
+msgstr "Consolando"
+
+msgid "Constant"
+msgstr "Constante"
+
+msgid "Constant to"
+msgstr "Constante a"
+
+msgid "Constraining"
+msgstr "Restringindo"
+
+msgid "Constructing"
+msgstr "Construindo"
+
+msgid "Consult your distribution manual, try installing Steam package or <a href='%s'>install required udev rules manually</a>."
+msgstr "Consulte o manual da sua distribuição, tente instalar o pacote Steam ou <a href='%s'>instale as regras udev manualmente</a>."
+
+msgid "Containing"
+msgstr "Contendo"
+
+msgid "Contains"
+msgstr "Contém"
+
+msgid "Contaminated"
+msgstr "Contaminado"
+
+msgid "Contemning"
+msgstr "Desprezando"
+
+msgid "Contending"
+msgstr "Contendendo"
+
+msgid "Contesting"
+msgstr "Contestando"
+
+msgid "Continue"
+msgstr "Continuar"
+
+msgid "Continuing"
+msgstr "Continuando"
+
+msgid "Continuous"
+msgstr "Contínuo"
+
+msgid "Contrast"
+msgstr "Contraste"
+
+msgid "Contributing"
+msgstr "Contribuindo"
+
+msgid "Control Menu With"
+msgstr "Controlar Menu Com"
+
+msgid "Control Options..."
+msgstr "Opções de Controle..."
+
+msgid "Controller"
+msgstr "Controle"
+
+msgid "Controller Button"
+msgstr "Botão do Controle"
+
+msgid "Controller Default"
+msgstr "Padrão do Controle"
+
+msgid "Controller Device"
+msgstr "Dispositivo do Controle"
+
+msgid "Controller Name"
+msgstr "Nome do Controle"
+
+msgid "Controller Registration"
+msgstr "Registro de Controle"
+
+msgid "Controller Settings"
+msgstr "Configurações do Controle"
+
+msgid "Controller listed here are automatically used by SC-Controller whenever they are connected."
+msgstr "Os controles listados aqui são usados automaticamente pelo SC-Controller sempre que conectados."
+
+msgid "Controller registered"
+msgstr "Controle registrado"
+
+msgid "Controllers"
+msgstr "Controles"
+
+msgid "Controllers listed here are automatically used by SC Controller whenever they are connected."
+msgstr "Controles listados aqui são automaticamente usados pelo SC Controller sempre que estiverem conectados."
+
+msgid "Controlling"
+msgstr "Controlando"
+
+msgid "Controls"
+msgstr "Controles"
+
+msgid "Conversing"
+msgstr "Conversando"
+
+msgid "Conversion"
+msgstr "Conversão"
+
+msgid "Converting"
+msgstr "Convertendo"
+
+msgid "Conveying"
+msgstr "Transportando"
+
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Copy Action"
+msgstr "Copiar Ação"
+
+msgid "Copy Profile"
+msgstr "Copiar Perfil"
+
+msgid "Copy current profile"
+msgstr "Copiar perfil atual"
+
+msgid "Copy to"
+msgstr "Copiar para"
+
+msgid "Copying"
+msgstr "Copiando"
+
+msgid "Correcting"
+msgstr "Corrigindo"
+
+msgid "Correction"
+msgstr "Correção"
+
+msgid "Corroded"
+msgstr "Corroído"
+
+msgid "Coughing"
+msgstr "Tossindo"
+
+msgid "Count"
+msgstr "Contagem"
+
+msgid "Counterbalancing"
+msgstr "Contrabalançando"
+
+msgid "Coupled with"
+msgstr "Acoplado com"
+
+msgid "Covering"
+msgstr "Cobrindo"
+
+msgid "Covering up"
+msgstr "Encobrindo"
+
+msgid "Coveting"
+msgstr "Cobiçando"
+
+msgid "Cracked"
+msgstr "Rachado"
+
+msgid "Craving"
+msgstr "Desejando ardentemente"
+
+msgid "Create"
+msgstr "Criar"
+
+msgid "Create New Profile"
+msgstr "Criar Novo Perfil"
+
+msgid "Create new"
+msgstr "Criar novo"
+
+msgid "Created"
+msgstr "Criado"
+
+msgid "Creating"
+msgstr "Criando"
+
+msgid "Cresting"
+msgstr "Atingindo o topo"
+
+msgid "Critical"
+msgstr "Crítico"
+
+msgid "Critical level"
+msgstr "Nível crítico"
+
+msgid "Crop"
+msgstr "Recortar"
+
+msgid "Crossing"
+msgstr "Cruzando"
+
+msgid "Crouching"
+msgstr "Agachando"
+
+msgid "Cruising"
+msgstr "Navegando"
+
+msgid "Crushed"
+msgstr "Esmagado"
+
+msgid "Crying"
+msgstr "Chorando"
+
+msgid "Culminating"
+msgstr "Culminando"
+
+msgid "Cultivating"
+msgstr "Cultivando"
+
+msgid "Curing"
+msgstr "Curando"
+
+msgid "Current"
+msgstr "Atual"
+
+msgid "Current value"
+msgstr "Valor atual"
+
+msgid "Curving"
+msgstr "Curvando"
+
+msgid "Custom"
+msgstr "Personalizado"
+
+msgid "Custom Action"
+msgstr "Ação Personalizada"
+
+msgid "Custom Editor"
+msgstr "Editor Personalizado"
+
+msgid "Custom Menu"
+msgstr "Menu Personalizado"
+
+msgid "Custom OSD"
+msgstr "OSD Personalizado"
+
+msgid "Custom action"
+msgstr "Ação personalizada"
+
+msgid "Custom range"
+msgstr "Intervalo personalizado"
+
+msgid "Custom value"
+msgstr "Valor personalizado"
+
+msgid "Customization"
+msgstr "Personalização"
+
+msgid "Customizing"
+msgstr "Personalizando"
+
+msgid "Cut Down"
+msgstr "Cortar para Baixo"
+
+msgid "Cutting"
+msgstr "Recortando"
+
+msgid "Cyan"
+msgstr "Ciano"
+
+msgid "Cycle"
+msgstr "Ciclo"
+
+msgid "DPAD"
+msgstr "DPAD"
+
+msgid "DPAD (left pad)"
+msgstr "DPAD (pad esquerdo)"
+
+msgid "DPAD / Menu"
+msgstr "DPAD / Menu"
+
+msgid "DS4 Controller Support"
+msgstr "Suporte a Controle DS4"
+
+msgid "Damaged"
+msgstr "Danificado"
+
+msgid "Darkening"
+msgstr "Escurecendo"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Deactivating"
+msgstr "Desativando"
+
+msgid "Deadline"
+msgstr "Prazo final"
+
+msgid "Deadzone"
+msgstr "Zona Morta"
+
+msgid "Deadzone Enabled"
+msgstr "Zona Morta Ativada"
+
+msgid "Dealing with"
+msgstr "Lidando com"
+
+msgid "Debating"
+msgstr "Debatendo"
+
+msgid "Debugging"
+msgstr "Depurando"
+
+msgid "Decided on"
+msgstr "Decidido sobre"
+
+msgid "Deciding"
+msgstr "Decidindo"
+
+msgid "Declaring"
+msgstr "Declarando"
+
+msgid "Declined"
+msgstr "Recusado"
+
+msgid "Declining"
+msgstr "Recusando"
+
+msgid "Decoding"
+msgstr "Decodificação"
+
+msgid "Decompression"
+msgstr "Descompressão"
+
+msgid "Decorating"
+msgstr "Decorando"
+
+msgid "Decreasing"
+msgstr "Diminuindo"
+
+msgid "Decrypted"
+msgstr "Descriptografado"
+
+msgid "Decryption"
+msgstr "Descriptografia"
+
+msgid "Dedicated to"
+msgstr "Dedicado a"
+
+msgid "Default"
+msgstr "Padrão"
+
+msgid "Default Menu Controls"
+msgstr "Controles de Menu Padrão"
+
+msgid "Default Menu Items"
+msgstr "Itens de Menu Padrão"
+
+msgid "Default Profile"
+msgstr "Perfil Padrão"
+
+msgid "Default value"
+msgstr "Valor padrão"
+
+msgid "Defending"
+msgstr "Defendendo"
+
+msgid "Defense"
+msgstr "Defesa"
+
+msgid "Defining"
+msgstr "Definindo"
+
+msgid "Defying"
+msgstr "Desafiando"
+
+msgid "Delayed"
+msgstr "Atrasado"
+
+msgid "Delegating"
+msgstr "Delegando"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "Delete Profile"
+msgstr "Excluir Perfil"
+
+msgid "Delete confirmation"
+msgstr "Confirmação de exclusão"
+
+msgid "Deleting"
+msgstr "Deletando"
+
+msgid "Delivering"
+msgstr "Entregando"
+
+msgid "Demanding"
+msgstr "Exigindo"
+
+msgid "Demolishing"
+msgstr "Demolindo"
+
+msgid "Demonstrating"
+msgstr "Demonstrando"
+
+msgid "Demonstration"
+msgstr "Demonstração"
+
+msgid "Denied"
+msgstr "Negado"
+
+msgid "Denying"
+msgstr "Negando"
+
+msgid "Departed"
+msgstr "Partido"
+
+msgid "Department"
+msgstr "Departamento"
+
+msgid "Deploying"
+msgstr "Implantando"
+
+msgid "Depth"
+msgstr "Profundidade"
+
+msgid "Deriving from"
+msgstr "Derivando de"
+
+msgid "Descending from"
+msgstr "Descendendo de"
+
+msgid "Descending on"
+msgstr "Descendo sobre"
+
+msgid "Describing"
+msgstr "Descrevendo"
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "Deselecting"
+msgstr "Desmarcando"
+
+msgid "Deserted"
+msgstr "Desertado"
+
+msgid "Desiring"
+msgstr "Desejando"
+
+msgid "Despising"
+msgstr "Desprezando"
+
+msgid "Destined for"
+msgstr "Destinado a"
+
+msgid "Destroying"
+msgstr "Destruindo"
+
+msgid "Detaching"
+msgstr "Desanexando"
+
+msgid "Detailing"
+msgstr "Detalhando"
+
+msgid "Details"
+msgstr "Detalhes"
+
+msgid "Detecting"
+msgstr "Detectando"
+
+msgid "Detection"
+msgstr "Detecção"
+
+msgid "Determined to"
+msgstr "Determinado a"
+
+msgid "Determining"
+msgstr "Determinando"
+
+msgid "Detesting"
+msgstr "Detestando"
+
+msgid "Devastating"
+msgstr "Devastando"
+
+msgid "Developing"
+msgstr "Desenvolvendo"
+
+msgid "Developing from"
+msgstr "Desenvolvendo de"
+
+msgid "Device"
+msgstr "Dispositivo"
+
+msgid "Devices"
+msgstr "Dispositivos"
+
+msgid "Devoted to"
+msgstr "Devotado a"
+
+msgid "Diagnosing"
+msgstr "Diagnosticando"
+
+msgid "Diagonal Axis"
+msgstr "Eixo Diagonal"
+
+msgid "Diagonal Range"
+msgstr "Intervalo Diagonal"
+
+msgid "Digit"
+msgstr "Dígito"
+
+msgid "Dimming"
+msgstr "Escurecendo"
+
+msgid "Directing"
+msgstr "Direcionando"
+
+msgid "Dirty"
+msgstr "Sujo"
+
+msgid "Disable"
+msgstr "Desativar"
+
+msgid "Disabled"
+msgstr "Desativado"
+
+msgid "Disabling"
+msgstr "Desativando"
+
+msgid "Disagreeing"
+msgstr "Discordando"
+
+msgid "Disassociating"
+msgstr "Desassociando"
+
+msgid "Discard changes"
+msgstr "Descartar alterações"
+
+msgid "Discarding"
+msgstr "Descartando"
+
+msgid "Disclosing"
+msgstr "Divulgando"
+
+msgid "Disconnect"
+msgstr "Desconectar"
+
+msgid "Disconnected"
+msgstr "Desconectado"
+
+msgid "Disconnecting"
+msgstr "Desconectando"
+
+msgid "Discontinued"
+msgstr "Descontinuado"
+
+msgid "Discovering"
+msgstr "Descobrindo"
+
+msgid "Discussing"
+msgstr "Discutindo"
+
+msgid "Disdaining"
+msgstr "Desdenhando"
+
+msgid "Diseased"
+msgstr "Doente"
+
+msgid "Disguising"
+msgstr "Disfarçando"
+
+msgid "Dismissed"
+msgstr "Descartado"
+
+msgid "Display"
+msgstr "Exibição"
+
+msgid "Display Area While Pad is Being Touched"
+msgstr "Exibir Área Enquanto o Pad é Tocado"
+
+msgid "Display Keyboard"
+msgstr "Exibir Teclado"
+
+msgid "Display Menu"
+msgstr "Exibir Menu"
+
+msgid "Display OSD"
+msgstr "Exibir OSD"
+
+msgid "Display On-Screen Keyboard"
+msgstr "Exibir Teclado na Tela"
+
+msgid "Display Profile Dump"
+msgstr "Exibir Dump do Perfil"
+
+msgid "Display Raw Data"
+msgstr "Exibir Dados Brutos"
+
+msgid "Display Time"
+msgstr "Tempo de Exibição"
+
+msgid "Display a message with changelog when SC Controller updates"
+msgstr "Exibir uma mensagem com changelog quando o SC Controller atualizar"
+
+msgid "Display list and let me choose name for each imported profile"
+msgstr "Exibir lista e me deixar escolher o nome de cada perfil importado"
+
+msgid "Display message about new version after SC-Controller upgrade"
+msgstr "Exibir mensagem sobre nova versão após atualização do SC-Controller"
+
+msgid "Display with each new version"
+msgstr "Exibir a cada nova versão"
+
+msgid "Displaying"
+msgstr "Exibindo"
+
+msgid "Disposing of"
+msgstr "Descartando"
+
+msgid "Disputing"
+msgstr "Disputando"
+
+msgid "Disregarded"
+msgstr "Desconsiderado"
+
+msgid "Disrupted"
+msgstr "Interrompido"
+
+msgid "Distance"
+msgstr "Distância"
+
+msgid "Distressed"
+msgstr "Angustiado"
+
+msgid "Distributing"
+msgstr "Distribuindo"
+
+msgid "Disturbed"
+msgstr "Perturbado"
+
+msgid "Dividing"
+msgstr "Dividindo"
+
+msgid "Do not ask again"
+msgstr "Não perguntar novamente"
+
+msgid "Documentation"
+msgstr "Documentação"
+
+msgid "Documenting"
+msgstr "Documentando"
+
+msgid "Dodging"
+msgstr "Esquivando"
+
+msgid "Don't import any additional profiles or menus"
+msgstr "Não importar perfis ou menus adicionais"
+
+msgid "Donating"
+msgstr "Doando"
+
+msgid "Done"
+msgstr "Feito"
+
+msgid "Double Click"
+msgstr "Clique Duplo"
+
+msgid "Double Click Action"
+msgstr "Ação de Clique Duplo"
+
+msgid "Double Press"
+msgstr "Pressionar Duas Vezes"
+
+msgid "Double-click"
+msgstr "Clique Duplo"
+
+msgid "Double-click Time"
+msgstr "Tempo de Clique Duplo"
+
+msgid "Down"
+msgstr "Baixo"
+
+msgid "Download"
+msgstr "Baixar"
+
+msgid "Downloading"
+msgstr "Baixando"
+
+msgid "Draft"
+msgstr "Rascunho"
+
+msgid "Dragging"
+msgstr "Arrastando"
+
+msgid "Draw gesture on LEFT pad..."
+msgstr "Desenhe gesto no pad ESQUERDO..."
+
+msgid "Draw gesture on RIGHT pad..."
+msgstr "Desenhe o gesto no pad DIREITO..."
+
+msgid "Draw gesture on Touchpad..."
+msgstr "Desenhe o gesto no Touchpad..."
+
+msgid "Drawing"
+msgstr "Desenhando"
+
+msgid "Drawing attention to"
+msgstr "Atraindo atenção para"
+
+msgid "Drawing back"
+msgstr "Recuando"
+
+msgid "Drawing out"
+msgstr "Retirando"
+
+msgid "Drifting"
+msgstr "Vagando"
+
+msgid "Drilling"
+msgstr "Treinando"
+
+msgid "Dripping"
+msgstr "Gotejando"
+
+msgid "Driving"
+msgstr "Dirigindo"
+
+msgid "Dropped profile"
+msgstr "Perfil descartado"
+
+msgid "Dropping"
+msgstr "Largando"
+
+msgid "Dual Stage Trigger Style"
+msgstr "Estilo de Gatilho Duplo Estágio"
+
+msgid "Due"
+msgstr "Vencimento"
+
+msgid "Due date"
+msgstr "Data de vencimento"
+
+msgid "Duplicate"
+msgstr "Duplicar"
+
+msgid "Duplicating"
+msgstr "Duplicando"
+
+msgid "Duration"
+msgstr "Duração"
+
+msgid "Dusty"
+msgstr "Empoeirado"
+
+msgid "Dynamic"
+msgstr "Dinâmico"
+
+msgid "Echoing"
+msgstr "Ecoando"
+
+msgid "Eclipsing"
+msgstr "Eclipsando"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Edit Action"
+msgstr "Editar Ação"
+
+msgid "Edit Condition"
+msgstr "Editar Condição"
+
+msgid "Edit Current Bindings"
+msgstr "Editar Atribuições Atuais"
+
+msgid "Edit Gesture Action"
+msgstr "Editar Ação de Gesto"
+
+msgid "Edit Macro"
+msgstr "Editar Macro"
+
+msgid "Edit Menu"
+msgstr "Editar Menu"
+
+msgid "Edit Menu Action"
+msgstr "Editar Ação de Menu"
+
+msgid "Edit Pressed Action"
+msgstr "Editar Ação ao Pressionar"
+
+msgid "Edit Profile"
+msgstr "Editar Perfil"
+
+msgid "Edit Recent List"
+msgstr "Editar Lista Recente"
+
+msgid "Edit Separator"
+msgstr "Editar Separador"
+
+msgid "Edit Submenu"
+msgstr "Editar Submenu"
+
+msgid "Edit mappings of this controller"
+msgstr "Editar mapeamentos deste controle"
+
+msgid "Edited"
+msgstr "Editado"
+
+msgid "Editing"
+msgstr "Editando"
+
+msgid "Edition"
+msgstr "Edição"
+
+msgid "Educating"
+msgstr "Educando"
+
+msgid "Effect Amplitude"
+msgstr "Amplitude do Efeito"
+
+msgid "Ejecting"
+msgstr "Ejetando"
+
+msgid "Elaborating"
+msgstr "Elaborando"
+
+msgid "Element"
+msgstr "Elemento"
+
+msgid "Elevating"
+msgstr "Elevando"
+
+msgid "Eliminating"
+msgstr "Eliminando"
+
+msgid "Emanating from"
+msgstr "Emanando de"
+
+msgid "Emancipating"
+msgstr "Emancipando"
+
+msgid "Embedded in"
+msgstr "Incorporado em"
+
+msgid "Emerging"
+msgstr "Emergindo"
+
+msgid "Emerging from"
+msgstr "Emergindo de"
+
+msgid "Emigrating"
+msgstr "Emigrando"
+
+msgid "Emphasizing"
+msgstr "Enfatizando"
+
+msgid "Empty"
+msgstr "Vazio"
+
+msgid "Empty profile"
+msgstr "Perfil vazio"
+
+msgid "Emptying"
+msgstr "Esvaziando"
+
+msgid "Emulate Arrows"
+msgstr "Emular Setas"
+
+msgid "Emulate Arrows, Move Keyboard when Left Grip is Pressed"
+msgstr "Emular Setas, Mover Teclado quando Grip Esquerdo for Pressionado"
+
+msgid "Emulate Arrows, Move Keyboard when Right Grip is Pressed"
+msgstr "Emular Setas, Mover Teclado quando Grip Direito for Pressionado"
+
+msgid "Emulate center (guide) button by pressing Back + Start at once"
+msgstr "Emular botão central (guide) pressionando Voltar + Start ao mesmo tempo"
+
+msgid "Emulated DPAD"
+msgstr "DPAD Emulado"
+
+msgid "Emulating"
+msgstr "Emulando"
+
+msgid "Emulation Disabled"
+msgstr "Emulação Desativada"
+
+msgid "Emulation Enabled"
+msgstr "Emulação Ativada"
+
+msgid "Emulation has to be restarted to apply all settings."
+msgstr "A emulação precisa ser reiniciada para aplicar todas as configurações."
+
+msgid "Emulation has to be restarted to apply all settings.\n"
+"If you have any games running, restarting emulation will \"unplug\"\n"
+"virtual gamepad, what may cause them to ignore future inputs\n"
+"or even crash."
+msgstr "A emulação precisa ser reiniciada para aplicar todas as configurações.\n"
+"Se houver jogos em execução, reiniciar a emulação irá \"desconectar\"\n"
+"o gamepad virtual, o que pode fazer os jogos ignorarem entradas futuras\n"
+"ou até travar."
+
+msgid "Emulation is active"
+msgstr "Emulação ativa"
+
+msgid "Emulation is inactive"
+msgstr "Emulação inativa"
+
+msgid "En."
+msgstr "Pt."
+
+msgid "Enable"
+msgstr "Ativar"
+
+msgid "Enable DS4 Controller Support"
+msgstr "Ativar Suporte a DS4"
+
+msgid "Enable DualSense (PS5 controller) support"
+msgstr "Habilitar suporte ao DualSense (controle PS5)"
+
+msgid "Enable Dualshock4 (PS4 controller) support"
+msgstr "Ativar suporte a Dualshock4 (controle PS4)"
+
+msgid "Enable HID device support"
+msgstr "Ativar suporte a dispositivos HID"
+
+msgid "Enable Input Sniffing"
+msgstr "Ativar Monitoramento de Entrada"
+
+msgid "Enable Input Test Mode"
+msgstr "Ativar Modo de Teste de Entrada"
+
+msgid "Enable Remote RetroPad protocol support"
+msgstr "Ativar suporte ao protocolo Remote RetroPad"
+
+msgid "Enable Rumble"
+msgstr "Ativar Vibração"
+
+msgid "Enable Rumble Support"
+msgstr "Ativar Suporte a Vibração"
+
+msgid "Enable Serial Numbers"
+msgstr "Ativar Números de Série"
+
+msgid "Enable Status (Systray) Icon"
+msgstr "Ativar Ícone de Status (Bandeja)"
+
+msgid "Enable Status Icon"
+msgstr "Ativar Ícone de Status"
+
+msgid "Enable Steam Controller support"
+msgstr "Ativar suporte a Steam Controller"
+
+msgid "Enable evdev support"
+msgstr "Ativar suporte a evdev"
+
+msgid "Enabled"
+msgstr "Ativado"
+
+msgid "Enabling"
+msgstr "Ativando"
+
+msgid "Enclosing"
+msgstr "Encerrando"
+
+msgid "Encoding"
+msgstr "Codificação"
+
+msgid "Encompassing"
+msgstr "Abrangendo"
+
+msgid "Encountering"
+msgstr "Encontrando"
+
+msgid "Encouraging"
+msgstr "Encorajando"
+
+msgid "Encrypted"
+msgstr "Criptografado"
+
+msgid "Encryption"
+msgstr "Criptografia"
+
+msgid "End"
+msgstr "Fim"
+
+msgid "Ended"
+msgstr "Terminado"
+
+msgid "Endorsing"
+msgstr "Endossando"
+
+msgid "Ends with"
+msgstr "Termina com"
+
+msgid "Enduring"
+msgstr "Perdurando"
+
+msgid "Energizing"
+msgstr "Energizando"
+
+msgid "Enhancement"
+msgstr "Melhoria"
+
+msgid "Enhancing"
+msgstr "Melhorando"
+
+msgid "Enjoying"
+msgstr "Gostando"
+
+msgid "Enlarging"
+msgstr "Aumentando"
+
+msgid "Ensuing from"
+msgstr "Decorrendo de"
+
+msgid "Enter name for imported profile and click \"Apply\""
+msgstr "Digite o nome do perfil importado e clique em \"Aplicar\""
+
+msgid "Entire Pad"
+msgstr "Pad Inteiro"
+
+msgid "Entrusting"
+msgstr "Confiando"
+
+msgid "Entry"
+msgstr "Entrada"
+
+msgid "Enunciating"
+msgstr "Enunciando"
+
+msgid "Envying"
+msgstr "Invejando"
+
+msgid "Equals"
+msgstr "Igual a"
+
+msgid "Equipping"
+msgstr "Equipando"
+
+msgid "Eradicating"
+msgstr "Erradicando"
+
+msgid "Erasing"
+msgstr "Apagando"
+
+msgid "Erecting"
+msgstr "Erguendo"
+
+msgid "Eroded"
+msgstr "Erodido"
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "Error enabling emulation"
+msgstr "Erro ao ativar emulação"
+
+msgid "Error message:"
+msgstr "Mensagem de erro:"
+
+msgid "Error:"
+msgstr "Erro:"
+
+msgid "Escaping"
+msgstr "Escapando"
+
+msgid "Established in"
+msgstr "Estabelecido em"
+
+msgid "Establishing"
+msgstr "Estabelecendo"
+
+msgid "Esteeming"
+msgstr "Estimando"
+
+msgid "Estimated"
+msgstr "Estimado"
+
+msgid "Evading"
+msgstr "Evitando"
+
+msgid "Evaluating"
+msgstr "Avaliando"
+
+msgid "Evolving"
+msgstr "Evoluindo"
+
+msgid "Evolving from"
+msgstr "Evoluindo de"
+
+msgid "Exact"
+msgstr "Exato"
+
+msgid "Examining"
+msgstr "Examinando"
+
+msgid "Example"
+msgstr "Exemplo"
+
+msgid "Exceeding expectations"
+msgstr "Superando expectativas"
+
+msgid "Excellent"
+msgstr "Excelente"
+
+msgid "Excluding"
+msgstr "Excluindo"
+
+msgid "Execute"
+msgstr "Executar"
+
+msgid "Execute Command"
+msgstr "Executar Comando"
+
+msgid "Executing"
+msgstr "Executando"
+
+msgid "Exemplifying"
+msgstr "Exemplificando"
+
+msgid "Exercising"
+msgstr "Exercitando"
+
+msgid "Exhaling"
+msgstr "Exalando"
+
+msgid "Exhibiting"
+msgstr "Exibindo"
+
+msgid "Existing"
+msgstr "Existindo"
+
+msgid "Exit"
+msgstr "Sair"
+
+msgid "Expand"
+msgstr "Expandir"
+
+msgid "Expanding"
+msgstr "Expandindo"
+
+msgid "Expected"
+msgstr "Esperado"
+
+msgid "Expecting"
+msgstr "Esperando"
+
+msgid "Experiencing"
+msgstr "Experimentando"
+
+msgid "Explaining"
+msgstr "Explicando"
+
+msgid "Exploring"
+msgstr "Explorando"
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "Export Profile"
+msgstr "Exportar Perfil"
+
+msgid "Export to File..."
+msgstr "Exportar para Arquivo..."
+
+msgid "Exporting"
+msgstr "Exportando"
+
+msgid "Exposing"
+msgstr "Expondo"
+
+msgid "Expressing"
+msgstr "Expressando"
+
+msgid "Expunging"
+msgstr "Apagando"
+
+msgid "Extending"
+msgstr "Estendendo"
+
+msgid "Extension"
+msgstr "Extensão"
+
+msgid "Exterminating"
+msgstr "Exterminando"
+
+msgid "Extracting"
+msgstr "Extraindo"
+
+msgid "Extraction"
+msgstr "Extração"
+
+msgid "Facing"
+msgstr "Enfrentando"
+
+msgid "Fail"
+msgstr "Reprovar"
+
+msgid "Failed"
+msgstr "Falhou"
+
+msgid "Failed to load"
+msgstr "Falha ao carregar"
+
+msgid "Failed to open device"
+msgstr "Falha ao abrir dispositivo"
+
+msgid "Failed to save"
+msgstr "Falha ao salvar"
+
+msgid "Failing to get"
+msgstr "Falhando em obter"
+
+msgid "Fair"
+msgstr "Regular"
+
+msgid "Faithful to"
+msgstr "Fiel a"
+
+msgid "Falling behind"
+msgstr "Ficando para trás"
+
+msgid "Falling on"
+msgstr "Caindo sobre"
+
+msgid "Falling short"
+msgstr "Ficando aquém"
+
+msgid "False"
+msgstr "Falso"
+
+msgid "Fastened to"
+msgstr "Preso a"
+
+msgid "Favoring"
+msgstr "Favorecendo"
+
+msgid "Favorite"
+msgstr "Favorito"
+
+msgid "Feature"
+msgstr "Recurso"
+
+msgid "Featuring"
+msgstr "Apresentando"
+
+msgid "Feedback"
+msgstr "Resposta Háptica"
+
+msgid "Feedback Enabled"
+msgstr "Resposta Háptica Ativada"
+
+msgid "Feeling"
+msgstr "Sentindo"
+
+msgid "Fetching"
+msgstr "Buscando"
+
+msgid "Fighting for"
+msgstr "Lutando por"
+
+msgid "File"
+msgstr "Arquivo"
+
+msgid "Filename"
+msgstr "Nome do arquivo"
+
+msgid "Fill"
+msgstr "Preencher"
+
+msgid "Filled"
+msgstr "Preenchido"
+
+msgid "Filter"
+msgstr "Filtrar"
+
+msgid "Filtering"
+msgstr "Filtrando"
+
+msgid "Filthy"
+msgstr "Imundo"
+
+msgid "Finalizing"
+msgstr "Finalizando"
+
+msgid "Find"
+msgstr "Localizar"
+
+msgid "Finding"
+msgstr "Localizando"
+
+msgid "Finding out"
+msgstr "Descobrindo"
+
+msgid "Fine-tuning"
+msgstr "Ajuste fino"
+
+msgid "Finger"
+msgstr "Dedo"
+
+msgid "Finger 1"
+msgstr "Dedo 1"
+
+msgid "Finger 2"
+msgstr "Dedo 2"
+
+msgid "Finish"
+msgstr "Concluir"
+
+msgid "Finished"
+msgstr "Terminado"
+
+msgid "Finishing"
+msgstr "Terminando"
+
+msgid "Finishing last"
+msgstr "Terminando por último"
+
+msgid "Finite"
+msgstr "Finito"
+
+msgid "First"
+msgstr "Primeiro"
+
+msgid "Fit"
+msgstr "Ajustar"
+
+msgid "Fit to window"
+msgstr "Ajustar à janela"
+
+msgid "Fix"
+msgstr "Correção"
+
+msgid "Fix Temporary"
+msgstr "Correção Temporária"
+
+msgid "Fixed"
+msgstr "Fixo"
+
+msgid "Fixed on"
+msgstr "Fixado em"
+
+msgid "Fixed to"
+msgstr "Fixado a"
+
+msgid "Flag"
+msgstr "Marcador"
+
+msgid "Flatten"
+msgstr "Achatar"
+
+msgid "Fleeing"
+msgstr "Fugindo"
+
+msgid "Flexing"
+msgstr "Flexionando"
+
+msgid "Flinching"
+msgstr "Recuando"
+
+msgid "Flip"
+msgstr "Inverter"
+
+msgid "Floating"
+msgstr "Flutuando"
+
+msgid "Flowing"
+msgstr "Fluindo"
+
+msgid "Flowing from"
+msgstr "Fluindo de"
+
+msgid "Flying"
+msgstr "Voando"
+
+msgid "Flying high"
+msgstr "Voando alto"
+
+msgid "Focused on"
+msgstr "Focado em"
+
+msgid "Focusing on"
+msgstr "Focando em"
+
+msgid "Foiled"
+msgstr "Frustrado"
+
+msgid "Folder"
+msgstr "Pasta"
+
+msgid "Follow Profile"
+msgstr "Seguir Perfil"
+
+msgid "Following from"
+msgstr "Seguindo de"
+
+msgid "Footnote"
+msgstr "Nota de rodapé"
+
+msgid "Force"
+msgstr "Força"
+
+msgid "Foreground"
+msgstr "Primeiro plano"
+
+msgid "Forgotten"
+msgstr "Esquecido"
+
+msgid "Format"
+msgstr "Formato"
+
+msgid "Formatting"
+msgstr "Formatando"
+
+msgid "Forming"
+msgstr "Formando"
+
+msgid "Forsaken"
+msgstr "Abandonado"
+
+msgid "Fortifying"
+msgstr "Fortificando"
+
+msgid "Forward"
+msgstr "Avançar"
+
+msgid "Fostering"
+msgstr "Fomentando"
+
+msgid "Founded on"
+msgstr "Fundado em"
+
+msgid "Founding"
+msgstr "Fundando"
+
+msgid "Fractured"
+msgstr "Fraturado"
+
+msgid "Frayed"
+msgstr "Desgastado"
+
+msgid "Free"
+msgstr "Livre"
+
+msgid "Freeing"
+msgstr "Libertando"
+
+msgid "Freezing"
+msgstr "Congelando"
+
+msgid "Frequency"
+msgstr "Frequência"
+
+msgid "Friction"
+msgstr "Fricção"
+
+msgid "From"
+msgstr "De"
+
+msgid "From Bottom"
+msgstr "De Baixo"
+
+msgid "From Left"
+msgstr "Da Esquerda"
+
+msgid "From Right"
+msgstr "Da Direita"
+
+msgid "From Top"
+msgstr "De Cima"
+
+msgid "Frowning"
+msgstr "Franzindo a testa"
+
+msgid "Frustrated"
+msgstr "Frustrado"
+
+msgid "Full"
+msgstr "Cheio"
+
+msgid "Full Screen"
+msgstr "Tela Cheia"
+
+msgid "Fully Pressed Action"
+msgstr "Ação ao Pressionar Completamente"
+
+msgid "Fully Pressed Level"
+msgstr "Nível de Pressionamento Completo"
+
+msgid "Functioning"
+msgstr "Funcionando"
+
+msgid "Funding"
+msgstr "Financiando"
+
+msgid "Fused with"
+msgstr "Fundido com"
+
+msgid "Game"
+msgstr "Jogo"
+
+msgid "Games List"
+msgstr "Lista de Jogos"
+
+msgid "Gasping"
+msgstr "Ofegando"
+
+msgid "General"
+msgstr "Geral"
+
+msgid "Generating"
+msgstr "Gerando"
+
+msgid "Gesture"
+msgstr "Gesto"
+
+msgid "Gesture action"
+msgstr "Ação de Gesto"
+
+msgid "Gesture differs"
+msgstr "Gesto diferente"
+
+msgid "Gestures"
+msgstr "Gestos"
+
+msgid "Getting back"
+msgstr "Recuperando"
+
+msgid "Getting rid of"
+msgstr "Livrando-se de"
+
+msgid "Getting up"
+msgstr "Levantando-se"
+
+msgid "Giggling"
+msgstr "Dando risadinhas"
+
+msgid "Giving"
+msgstr "Dando"
+
+msgid "Gliding"
+msgstr "Planando"
+
+msgid "Global Settings"
+msgstr "Configurações Globais"
+
+msgid "Glorifying"
+msgstr "Glorificando"
+
+msgid "Glossary"
+msgstr "Glossário"
+
+msgid "Go to"
+msgstr "Ir para"
+
+msgid "Goal"
+msgstr "Objetivo"
+
+msgid "Going back"
+msgstr "Voltando"
+
+msgid "Gone"
+msgstr "Ido"
+
+msgid "Good"
+msgstr "Bom"
+
+msgid "Governing"
+msgstr "Governando"
+
+msgid "Grab Input"
+msgstr "Capturar Entrada"
+
+msgid "Grab a key"
+msgstr "Capturar uma tecla"
+
+msgid "Grabbing"
+msgstr "Agarrando"
+
+msgid "Grade"
+msgstr "Nota"
+
+msgid "Gradient"
+msgstr "Gradiente"
+
+msgid "Grading"
+msgstr "Avaliando"
+
+msgid "Granting"
+msgstr "Concedendo"
+
+msgid "Grasping"
+msgstr "Agarrando"
+
+msgid "Grasping for"
+msgstr "Tentando agarrar"
+
+msgid "Greater than"
+msgstr "Maior que"
+
+msgid "Greater than or equal"
+msgstr "Maior ou igual a"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "Grid"
+msgstr "Grade"
+
+msgid "Grimacing"
+msgstr "Fazendo careta"
+
+msgid "Grimy"
+msgstr "Encardido"
+
+msgid "Grinning"
+msgstr "Sorrindo"
+
+msgid "Gripping"
+msgstr "Agarrando"
+
+msgid "Groaning"
+msgstr "Gemendo"
+
+msgid "Grounded in"
+msgstr "Fundamentado em"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Group layers"
+msgstr "Agrupar camadas"
+
+msgid "Grouping"
+msgstr "Agrupando"
+
+msgid "Growing"
+msgstr "Crescendo"
+
+msgid "Growing out of"
+msgstr "Crescendo de"
+
+msgid "Guarding"
+msgstr "Guardando"
+
+msgid "Guest"
+msgstr "Convidado"
+
+msgid "Guffawing"
+msgstr "Gargalhando"
+
+msgid "Guide"
+msgstr "Guia"
+
+msgid "Guiding"
+msgstr "Guiando"
+
+msgid "Gushing"
+msgstr "Jorrando"
+
+msgid "Gyro"
+msgstr "Giroscópio"
+
+msgid "Gyro Disable Button"
+msgstr "Botão para Desativar Giroscópio"
+
+msgid "Gyro Enable Button"
+msgstr "Botão de Ativar Giroscópio"
+
+msgid "Gyroscope"
+msgstr "Giroscópio"
+
+msgid "Halted"
+msgstr "Interrompido"
+
+msgid "Hampered"
+msgstr "Prejudicado"
+
+msgid "Handling"
+msgstr "Lidando"
+
+msgid "Haptic Feedback"
+msgstr "Resposta Háptica"
+
+msgid "Haptic Intensity"
+msgstr "Intensidade Háptica"
+
+msgid "Hard Level"
+msgstr "Nível Rígido"
+
+msgid "Harmed"
+msgstr "Prejudicado"
+
+msgid "Hashing"
+msgstr "Hash"
+
+msgid "Hating"
+msgstr "Odiando"
+
+msgid "Hauling"
+msgstr "Puxando"
+
+msgid "Having"
+msgstr "Tendo"
+
+msgid "Heading for"
+msgstr "Indo para"
+
+msgid "Healing"
+msgstr "Curando"
+
+msgid "Height"
+msgstr "Altura"
+
+msgid "Help"
+msgstr "Ajuda"
+
+msgid "Helping"
+msgstr "Ajudando"
+
+msgid "Hibernating"
+msgstr "Hibernando"
+
+msgid "Hidden"
+msgstr "Oculto"
+
+msgid "Hidden from all"
+msgstr "Oculto de todos"
+
+msgid "Hidden layers"
+msgstr "Camadas ocultas"
+
+msgid "Hide"
+msgstr "Ocultar"
+
+msgid "Hide Keyboard"
+msgstr "Ocultar Teclado"
+
+msgid "Hide all OSD Menus and Messages"
+msgstr "Ocultar todos os Menus e Mensagens OSD"
+
+msgid "Hide details"
+msgstr "Ocultar detalhes"
+
+msgid "Hiding"
+msgstr "Escondendo"
+
+msgid "High"
+msgstr "Alto"
+
+msgid "Highlighting"
+msgstr "Destacando"
+
+msgid "Higlight"
+msgstr "Destaque"
+
+msgid "Hindered"
+msgstr "Impedido"
+
+msgid "Hint"
+msgstr "Sugestão"
+
+msgid "Hip Fire"
+msgstr "Disparo Imediato"
+
+msgid "Hip Fire - Exclusive Buttons"
+msgstr "Disparo Imediato - Botões Exclusivos"
+
+msgid "Hip Fire Delay"
+msgstr "Atraso de Disparo Imediato"
+
+msgid "Hip fire - Sensible"
+msgstr "Disparo Imediato - Sensível"
+
+msgid "Hit"
+msgstr "Atingido"
+
+msgid "Hitting the ceiling"
+msgstr "Atingindo o limite"
+
+msgid "Hoisting"
+msgstr "Içando"
+
+msgid "Hold"
+msgstr "Manter Pressionado"
+
+msgid "Hold Action"
+msgstr "Ação de Manter"
+
+msgid "Hold Time"
+msgstr "Tempo de Manutenção"
+
+msgid "Hold to Confirm"
+msgstr "Manter para Confirmar"
+
+msgid "Holding"
+msgstr "Segurando"
+
+msgid "Homing in on"
+msgstr "Mirando em"
+
+msgid "Honoring"
+msgstr "Honrando"
+
+msgid "Hoping"
+msgstr "Esperando"
+
+msgid "Horizontal Menu"
+msgstr "Menu Horizontal"
+
+msgid "Hotfix"
+msgstr "Correção urgente"
+
+msgid "Hovering"
+msgstr "Pairando"
+
+msgid "Howling"
+msgstr "Uivando"
+
+msgid "Hurt"
+msgstr "Machucado"
+
+msgid "Icon"
+msgstr "Ícone"
+
+msgid "Identifying"
+msgstr "Identificando"
+
+msgid "Idolizing"
+msgstr "Idolatrando"
+
+msgid "If enabled, any connected DualSense controller will be automatically used by SC Controller"
+msgstr "Se habilitado, qualquer controle DualSense conectado será automaticamente usado pelo SC Controller"
+
+msgid "If enabled, any connected Dualshock4 controller will be automatically used by SC Controller"
+msgstr "Se habilitado, qualquer controle Dualshock4 conectado será automaticamente usado pelo SC Controller"
+
+msgid "If enabled, any connected Dualshock4 controller will be automatically used by SC-Controller"
+msgstr "Se ativado, qualquer controle Dualshock4 conectado será automaticamente usado pelo SC-Controller"
+
+msgid "If enabled, any device or application compatible with Retroarch's Remote RetroPad protocol"
+msgstr "Se ativado, qualquer dispositivo ou aplicativo compatível com o protocolo Remote RetroPad do Retroarch"
+
+msgid "If enabled, any device or application compatible with Retroarch's Remote RetroPad protocol\n"
+"on network can connect and remote-control this computer as additional gamepad.\n"
+"&lt;a href=\"https://github.com/C0rn3j/sc-controller/wiki/Using-phone-with-Retroarch-as-additional-controller\"&gt;See wiki for instructions and more info.&lt;/a&gt;"
+msgstr "Se ativado, qualquer dispositivo ou aplicativo compatível com o protocolo Remote RetroPad do\n"
+"Retroarch na rede pode conectar e controlar remotamente este computador como gamepad adicional.\n"
+"&lt;a href=\"https://github.com/C0rn3j/sc-controller/wiki/Using-phone-with-Retroarch-as-additional-controller\"&gt;Veja o wiki para instruções e mais informações.&lt;/a&gt;"
+
+msgid "If enabled, any device or application compatible with Retroarch's Remote RetroPad protocol\n"
+"on network can connect and remote-control this computer as additional gamepad.\n"
+"<a href=\"https://github.com/C0rn3j/sc-controller/wiki/Using-phone-with-Retroarch-as-additional-controller\">See wiki for instructions and more info.</a>"
+msgstr "Se ativado, qualquer dispositivo ou aplicativo compatível com o protocolo Remote RetroPad do\n"
+"Retroarch na rede pode conectar e controlar remotamente este computador como gamepad adicional.\n"
+"<a href=\"https://github.com/C0rn3j/sc-controller/wiki/Using-phone-with-Retroarch-as-additional-controller\">Veja o wiki para instruções e mais informações.</a>"
+
+msgid "If enabled, any device or application compatible with Retroarch's Remote RetroPad protocol on network can connect and remote-control this computer as additional gamepad."
+msgstr "Se habilitado, qualquer dispositivo ou aplicativo compatível com o protocolo Remote RetroPad do Retroarch na rede pode conectar e controlar remotamente este computador como um gamepad adicional."
+
+msgid "Ignore Stroke _Length"
+msgstr "Ignorar _Comprimento do Traço"
+
+msgid "Ignored"
+msgstr "Ignorado"
+
+msgid "Ignoring"
+msgstr "Ignorando"
+
+msgid "Ill"
+msgstr "Doente"
+
+msgid "Illustrating"
+msgstr "Ilustrando"
+
+msgid "Imitating"
+msgstr "Imitando"
+
+msgid "Immigrating"
+msgstr "Imigrando"
+
+msgid "Impeded"
+msgstr "Impedido"
+
+msgid "Implying"
+msgstr "Implicando"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "Import / Export"
+msgstr "Importar / Exportar"
+
+msgid "Import As"
+msgstr "Importar Como"
+
+msgid "Import Profile"
+msgstr "Importar Perfil"
+
+msgid "Import Profile..."
+msgstr "Importar Perfil..."
+
+msgid "Import Steam Profile"
+msgstr "Importar Perfil Steam"
+
+msgid "Import _Steam Profile"
+msgstr "Importar Perfil _Steam"
+
+msgid "Import as hidden menus and profiles named \".%s:name\""
+msgstr "Importar como menus e perfis ocultos com nome \".%s:nome\""
+
+msgid "Import failed"
+msgstr "Importação falhou"
+
+msgid "Import normaly, with names formated as \"%s:name\""
+msgstr "Importar normalmente, com nomes no formato \"%s:nome\""
+
+msgid "Import results goes here"
+msgstr "Resultados da importação aparecem aqui"
+
+msgid "Import/Export Profile"
+msgstr "Importar/Exportar Perfil"
+
+msgid "Import/Export _Profile..."
+msgstr "Importar/Exportar _Perfil..."
+
+msgid "Important"
+msgstr "Importante"
+
+msgid "Importing"
+msgstr "Importando"
+
+msgid "Improvement"
+msgstr "Aprimoramento"
+
+msgid "Improving"
+msgstr "Aprimorando"
+
+msgid "In progress"
+msgstr "Em andamento"
+
+msgid "In range"
+msgstr "No intervalo"
+
+msgid "Inactive"
+msgstr "Inativo"
+
+msgid "Inaugurating"
+msgstr "Inaugurando"
+
+msgid "Including"
+msgstr "Incluindo"
+
+msgid "Incomplete"
+msgstr "Incompleto"
+
+msgid "Incorporated into"
+msgstr "Incorporado em"
+
+msgid "Incorporating"
+msgstr "Incorporando"
+
+msgid "Increasing"
+msgstr "Aumentando"
+
+msgid "Index"
+msgstr "Índice"
+
+msgid "Indicating"
+msgstr "Indicando"
+
+msgid "Infected"
+msgstr "Infectado"
+
+msgid "Infinite"
+msgstr "Infinito"
+
+msgid "Information"
+msgstr "Informação"
+
+msgid "Information about"
+msgstr "Informações sobre"
+
+msgid "Inhaling"
+msgstr "Inalando"
+
+msgid "Initializing"
+msgstr "Inicializando"
+
+msgid "Initiating"
+msgstr "Iniciando"
+
+msgid "Injured"
+msgstr "Ferido"
+
+msgid "Inner Ring"
+msgstr "Anel Interno"
+
+msgid "Inner Ring Radius"
+msgstr "Raio do Anel Interno"
+
+msgid "Input"
+msgstr "Entrada"
+
+msgid "Input Display"
+msgstr "Exibição de Entrada"
+
+msgid "Input Rotation"
+msgstr "Rotação de Entrada"
+
+msgid "Input Test Mode"
+msgstr "Modo de Teste de Entrada"
+
+msgid "Inquiring"
+msgstr "Perguntando"
+
+msgid "Insecure"
+msgstr "Inseguro"
+
+msgid "Inserting"
+msgstr "Inserindo"
+
+msgid "Inspecting"
+msgstr "Inspecionando"
+
+msgid "Inspiring"
+msgstr "Inspirando"
+
+msgid "Install"
+msgstr "Instalar"
+
+msgid "Installed in"
+msgstr "Instalado em"
+
+msgid "Installing"
+msgstr "Instalando"
+
+msgid "Instituting"
+msgstr "Instituindo"
+
+msgid "Instructing"
+msgstr "Instruindo"
+
+msgid "Insurrecting"
+msgstr "Insurgindo"
+
+msgid "Integrated into"
+msgstr "Integrado em"
+
+msgid "Integration"
+msgstr "Integração"
+
+msgid "Intent on"
+msgstr "Decidido a"
+
+msgid "Interface Language"
+msgstr "Idioma da Interface"
+
+msgid "Interfered with"
+msgstr "Interferido"
+
+msgid "Internationalization"
+msgstr "Internacionalização"
+
+msgid "Interpreting"
+msgstr "Interpretando"
+
+msgid "Interrogating"
+msgstr "Interrogando"
+
+msgid "Interrupted"
+msgstr "Interrompido"
+
+msgid "Introducing"
+msgstr "Apresentando"
+
+msgid "Introduction"
+msgstr "Introdução"
+
+msgid "Invalid"
+msgstr "Inválido"
+
+msgid "Invalid Menu ID: Menu with same ID already exists."
+msgstr "ID de menu inválido: já existe um menu com o mesmo ID."
+
+msgid "Invalid Menu ID: Please, don't use dots (.) or slashes (/)."
+msgstr "ID de menu inválido: por favor, não use pontos (.) ou barras (/)."
+
+msgid "Invalidating"
+msgstr "Invalidando"
+
+msgid "Invert"
+msgstr "Inverter"
+
+msgid "Invert Axes"
+msgstr "Inverter Eixos"
+
+msgid "Invert Roll"
+msgstr "Inverter Rolagem"
+
+msgid "Invert X"
+msgstr "Inverter X"
+
+msgid "Invert X axis"
+msgstr "Inverter eixo X"
+
+msgid "Invert Y"
+msgstr "Inverter Y"
+
+msgid "Invert Y Axis"
+msgstr "Inverter Eixo Y"
+
+msgid "Invert Y axis"
+msgstr "Inverter eixo Y"
+
+msgid "Investing"
+msgstr "Investindo"
+
+msgid "Invigorating"
+msgstr "Revigorando"
+
+msgid "Isolating"
+msgstr "Isolando"
+
+msgid "Issuing from"
+msgstr "Proveniente de"
+
+msgid "Item Border"
+msgstr "Borda do Item"
+
+msgid "Items"
+msgstr "Itens"
+
+msgid "Items per row"
+msgstr "Itens por linha"
+
+msgid "Joined with"
+msgstr "Juntado com"
+
+msgid "Joining"
+msgstr "Juntando"
+
+msgid "Journeying"
+msgstr "Viajando"
+
+msgid "Joystick / Mouse"
+msgstr "Joystick / Mouse"
+
+msgid "Joystick Camera"
+msgstr "Câmera por Joystick"
+
+msgid "Joystick deadzone"
+msgstr "Zona morta do Joystick"
+
+msgid "Joystick or Mouse"
+msgstr "Joystick ou Mouse"
+
+msgid "Judging"
+msgstr "Julgando"
+
+msgid "Jump to"
+msgstr "Pular para"
+
+msgid "Keep editing"
+msgstr "Continuar editando"
+
+msgid "Keeping"
+msgstr "Mantendo"
+
+msgid "Keeping out"
+msgstr "Mantendo fora"
+
+msgid "Key"
+msgstr "Tecla"
+
+msgid "Key or Button"
+msgstr "Tecla ou Botão"
+
+msgid "Keyboard"
+msgstr "Teclado"
+
+msgid "Keyboard Action"
+msgstr "Ação de Teclado"
+
+msgid "Kill Current Window"
+msgstr "Fechar Janela Atual"
+
+msgid "Kind"
+msgstr "Tipo"
+
+msgid "Kneeling"
+msgstr "Ajoelhando"
+
+msgid "LED brightness"
+msgstr "Brilho do LED"
+
+msgid "Label"
+msgstr "Rótulo"
+
+msgid "Labels"
+msgstr "Rótulos"
+
+msgid "Laden"
+msgstr "Carregado"
+
+msgid "Lagging"
+msgstr "Atrasando"
+
+msgid "Landing on"
+msgstr "Pousando em"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Language Changed"
+msgstr "Idioma Alterado"
+
+msgid "Language:"
+msgstr "Idioma:"
+
+msgid "Last"
+msgstr "Último"
+
+msgid "Last month"
+msgstr "Mês passado"
+
+msgid "Last week"
+msgstr "Semana passada"
+
+msgid "Last year"
+msgstr "Ano passado"
+
+msgid "Lasting"
+msgstr "Durando"
+
+msgid "Latest"
+msgstr "Mais recente"
+
+msgid "Laughing"
+msgstr "Rindo"
+
+msgid "Launching"
+msgstr "Lançando"
+
+msgid "Layer"
+msgstr "Camada"
+
+msgid "Laying aside"
+msgstr "Deixando de lado"
+
+msgid "Laying bare"
+msgstr "Expondo"
+
+msgid "Laying waste to"
+msgstr "Devastando"
+
+msgid "Leading"
+msgstr "Liderando"
+
+msgid "Leaking"
+msgstr "Vazando"
+
+msgid "Learning"
+msgstr "Aprendendo"
+
+msgid "Leaving behind"
+msgstr "Deixando para trás"
+
+msgid "Leaving out"
+msgstr "Deixando de fora"
+
+msgid "Lecturing"
+msgstr "Lecionando"
+
+msgid "Left"
+msgstr "Deixado"
+
+msgid "Left Bumper"
+msgstr "Bumper Esquerdo"
+
+msgid "Left Grip"
+msgstr "Grip Esquerdo"
+
+msgid "Left Pad"
+msgstr "Pad Esquerdo"
+
+msgid "Left Pad Angle"
+msgstr "Ângulo do Pad Esquerdo"
+
+msgid "Left Pad Press"
+msgstr "Pressionar Pad Esquerdo"
+
+msgid "Left Pad Pressed"
+msgstr "Pad Esquerdo Pressionado"
+
+msgid "Left Pad Touched"
+msgstr "Pad Esquerdo Tocado"
+
+msgid "Left Stick"
+msgstr "Analógico Esquerdo"
+
+msgid "Left Stick (Absolute)"
+msgstr "Analógico Esquerdo (Absoluto)"
+
+msgid "Left Stick (Camera)"
+msgstr "Analógico Esquerdo (Câmera)"
+
+msgid "Left Trigger"
+msgstr "Gatilho Esquerdo"
+
+msgid "Left Trigger (full)"
+msgstr "Gatilho Esquerdo (total)"
+
+msgid "Left Trigger (soft)"
+msgstr "Gatilho Esquerdo (suave)"
+
+msgid "Left stick"
+msgstr "Analógico esquerdo"
+
+msgid "Length"
+msgstr "Comprimento"
+
+msgid "Lengthening"
+msgstr "Alongando"
+
+msgid "Less information"
+msgstr "Menos informações"
+
+msgid "Less than"
+msgstr "Menor que"
+
+msgid "Less than or equal"
+msgstr "Menor ou igual a"
+
+msgid "Letter"
+msgstr "Letra"
+
+msgid "Letting out"
+msgstr "Deixando sair"
+
+msgid "Level"
+msgstr "Nível"
+
+msgid "Liberating"
+msgstr "Libertando"
+
+msgid "License"
+msgstr "Licença"
+
+msgid "Lifting"
+msgstr "Levantando"
+
+msgid "Liking"
+msgstr "Gostando"
+
+msgid "Limit"
+msgstr "Limite"
+
+msgid "Limitation"
+msgstr "Limitação"
+
+msgid "Limited"
+msgstr "Limitado"
+
+msgid "Limiting"
+msgstr "Limitando"
+
+msgid "Line"
+msgstr "Linha"
+
+msgid "Linked to"
+msgstr "Vinculado a"
+
+msgid "Linking"
+msgstr "Vinculando"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "List of recent profiles"
+msgstr "Lista de perfis recentes"
+
+msgid "Living"
+msgstr "Vivendo"
+
+msgid "Load"
+msgstr "Carregar"
+
+msgid "Loaded"
+msgstr "Carregado"
+
+msgid "Loading"
+msgstr "Carregando"
+
+msgid "Loading..."
+msgstr "Carregando..."
+
+msgid "Loathing"
+msgstr "Detestando"
+
+msgid "Localization"
+msgstr "Localização"
+
+msgid "Located in"
+msgstr "Localizado em"
+
+msgid "Locating"
+msgstr "Localizando"
+
+msgid "Location"
+msgstr "Localização"
+
+msgid "Lock"
+msgstr "Travar"
+
+msgid "Locked"
+msgstr "Travado"
+
+msgid "Locking"
+msgstr "Travando"
+
+msgid "Logging"
+msgstr "Registro"
+
+msgid "Login"
+msgstr "Entrar"
+
+msgid "Logout"
+msgstr "Sair"
+
+msgid "Long Press"
+msgstr "Pressionar Longo"
+
+msgid "Longing for"
+msgstr "Ansiando por"
+
+msgid "Looking"
+msgstr "Olhando"
+
+msgid "Looking after"
+msgstr "Cuidando"
+
+msgid "Looking forward to"
+msgstr "Aguardando ansiosamente"
+
+msgid "Losing out"
+msgstr "Perdendo"
+
+msgid "Lost"
+msgstr "Perdido"
+
+msgid "Lounging"
+msgstr "Descansando"
+
+msgid "Loving"
+msgstr "Amando"
+
+msgid "Low"
+msgstr "Baixo"
+
+msgid "Lower"
+msgstr "Inferior"
+
+msgid "Lowering"
+msgstr "Abaixando"
+
+msgid "Loyal to"
+msgstr "Leal a"
+
+msgid "Lying"
+msgstr "Deitando"
+
+msgid "Macro Type"
+msgstr "Tipo de Macro"
+
+msgid "Macro action"
+msgstr "Ação de Macro"
+
+msgid "Macro for %s"
+msgstr "Macro para %s"
+
+msgid "Magnifying"
+msgstr "Ampliando"
+
+msgid "Maintaining"
+msgstr "Mantendo"
+
+msgid "Maintenance"
+msgstr "Manutenção"
+
+msgid "Major"
+msgstr "Principal"
+
+msgid "Making for"
+msgstr "Indo para"
+
+msgid "Making up"
+msgstr "Constituindo"
+
+msgid "Making up for"
+msgstr "Compensando"
+
+msgid "Managing"
+msgstr "Gerenciando"
+
+msgid "Manifesting"
+msgstr "Manifestando"
+
+msgid "Manipulating"
+msgstr "Manipulando"
+
+msgid "Manufacturing"
+msgstr "Fabricando"
+
+msgid "Mapping"
+msgstr "Mapeamento"
+
+msgid "Mark"
+msgstr "Marca"
+
+msgid "Marking"
+msgstr "Marcando"
+
+msgid "Masking"
+msgstr "Mascarando"
+
+msgid "Match Window Class"
+msgstr "Corresponder Classe da Janela"
+
+msgid "Match Window Title"
+msgstr "Corresponder Título da Janela"
+
+msgid "Match exact title"
+msgstr "Corresponder título exato"
+
+msgid "Matched with"
+msgstr "Combinado com"
+
+msgid "Matching Precision"
+msgstr "Precisão de Correspondência"
+
+msgid "Materializing"
+msgstr "Materializando"
+
+msgid "Maximize"
+msgstr "Maximizar"
+
+msgid "Maximizing"
+msgstr "Maximizando"
+
+msgid "Maximum"
+msgstr "Máximo"
+
+msgid "Maxing out"
+msgstr "Atingindo o máximo"
+
+msgid "Meaning"
+msgstr "Significando"
+
+msgid "Measured"
+msgstr "Medido"
+
+msgid "Medium"
+msgstr "Médio"
+
+msgid "Meeting"
+msgstr "Encontrando"
+
+msgid "Member"
+msgstr "Membro"
+
+msgid "Mentoring"
+msgstr "Orientando"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Menu Action"
+msgstr "Ação de Menu"
+
+msgid "Menu Editor"
+msgstr "Editor de Menus"
+
+msgid "Menu ID"
+msgstr "ID do Menu"
+
+msgid "Menu Item"
+msgstr "Item de Menu"
+
+msgid "Menu Label"
+msgstr "Rótulo do Menu"
+
+msgid "Menu Position..."
+msgstr "Posição do Menu..."
+
+msgid "Menu Type"
+msgstr "Tipo de Menu"
+
+msgid "Menus & Keyboard"
+msgstr "Menus e Teclado"
+
+msgid "Menus &amp; Keyboard"
+msgstr "Menus e Teclado"
+
+msgid "Merge"
+msgstr "Mesclar"
+
+msgid "Merged into"
+msgstr "Mesclado em"
+
+msgid "Merging"
+msgstr "Mesclando"
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Middle"
+msgstr "Meio"
+
+msgid "Migrating"
+msgstr "Migrando"
+
+msgid "Migration"
+msgstr "Migração"
+
+msgid "Milestone"
+msgstr "Marco"
+
+msgid "Mimicking"
+msgstr "Imitando"
+
+msgid "Minimizar para bandeja ao iniciar"
+msgstr "Minimizar para bandeja ao iniciar"
+
+msgid "Minimizar para ícone de status em vez de fechar"
+msgstr "Minimizar para ícone de status em vez de fechar"
+
+msgid "Minimize"
+msgstr "Minimizar"
+
+msgid "Minimize on Start"
+msgstr "Minimizar ao Iniciar"
+
+msgid "Minimize to Status Icon"
+msgstr "Minimizar para Ícone de Status"
+
+msgid "Minimize to status icon instead closing"
+msgstr "Minimizar para ícone de status em vez de fechar"
+
+msgid "Minimize to tray on start"
+msgstr "Minimizar para bandeja ao iniciar"
+
+msgid "Minimize to tray on startup"
+msgstr "Minimizar para bandeja ao iniciar"
+
+msgid "Minimizing"
+msgstr "Minimizando"
+
+msgid "Minimum"
+msgstr "Mínimo"
+
+msgid "Minimum Output Value"
+msgstr "Valor Mínimo de Saída"
+
+msgid "Minor"
+msgstr "Secundário"
+
+msgid "Mirror"
+msgstr "Espelhar"
+
+msgid "Mirroring"
+msgstr "Espelhando"
+
+msgid "Mislaid"
+msgstr "Extraviado"
+
+msgid "Misplaced"
+msgstr "Extraviado"
+
+msgid "Missing"
+msgstr "Faltando"
+
+msgid "Missing out"
+msgstr "Perdendo"
+
+msgid "Moaning"
+msgstr "Gemendo"
+
+msgid "Mode"
+msgstr "Modo"
+
+msgid "Mode Shift"
+msgstr "Mudança de Modo"
+
+msgid "Mode Shift action"
+msgstr "Ação de Mudança de Modo"
+
+msgid "Mode Shift for %s"
+msgstr "Mudança de Modo para %s"
+
+msgid "Modeling"
+msgstr "Modelando"
+
+msgid "Moderator"
+msgstr "Moderador"
+
+msgid "Modification"
+msgstr "Modificação"
+
+msgid "Modified"
+msgstr "Modificado"
+
+msgid "Modifier"
+msgstr "Modificador"
+
+msgid "Modifying"
+msgstr "Modificando"
+
+msgid "Monitoring"
+msgstr "Monitoramento"
+
+msgid "More information"
+msgstr "Mais informações"
+
+msgid "More..."
+msgstr "Mais..."
+
+msgid "Motivating"
+msgstr "Motivando"
+
+msgid "Mounting"
+msgstr "Montando"
+
+msgid "Mouse (Camera)"
+msgstr "Mouse (Câmera)"
+
+msgid "Mouse (Emulate Stick)"
+msgstr "Mouse (Emular Analógico)"
+
+msgid "Mouse (Trackpad or Trackball)"
+msgstr "Mouse (Trackpad ou Trackball)"
+
+msgid "Mouse Action"
+msgstr "Ação de Mouse"
+
+msgid "Mouse Button"
+msgstr "Botão do Mouse"
+
+msgid "Mouse Region"
+msgstr "Região do Mouse"
+
+msgid "Mouse Wheel"
+msgstr "Roda do Mouse"
+
+msgid "Mouse-like Joystick on LEFT Stick"
+msgstr "Joystick tipo Mouse no Analógico ESQUERDO"
+
+msgid "Mouse-like Joystick on RIGHT Stick"
+msgstr "Joystick tipo Mouse no Analógico DIREITO"
+
+msgid "Move"
+msgstr "Mover"
+
+msgid "Move DPAD down"
+msgstr "Mova o DPAD para baixo"
+
+msgid "Move DPAD to right"
+msgstr "Mova o DPAD para a direita"
+
+msgid "Move DPAD up"
+msgstr "Mova o DPAD para cima"
+
+msgid "Move Keyboard"
+msgstr "Mover Teclado"
+
+msgid "Move LEFT Cursor"
+msgstr "Mover Cursor ESQUERDO"
+
+msgid "Move RIGHT Cursor"
+msgstr "Mover Cursor DIREITO"
+
+msgid "Move stick left and right..."
+msgstr "Mova o analógico para esquerda e direita..."
+
+msgid "Move stick up and down..."
+msgstr "Mova o analógico para cima e baixo..."
+
+msgid "Move to"
+msgstr "Mover para"
+
+msgid "Moving"
+msgstr "Movendo"
+
+msgid "Moving forward"
+msgstr "Avançando"
+
+msgid "Moving toward"
+msgstr "Movendo em direção a"
+
+msgid "Muddy"
+msgstr "Enlameado"
+
+msgid "Multi Action"
+msgstr "Ação Múltipla"
+
+msgid "Mutinying"
+msgstr "Amotinando"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Navigating"
+msgstr "Navegando"
+
+msgid "Nearing"
+msgstr "Aproximando"
+
+msgid "Needing"
+msgstr "Precisando"
+
+msgid "Negating"
+msgstr "Negando"
+
+msgid "Neglected"
+msgstr "Negligenciado"
+
+msgid "Nervous"
+msgstr "Nervoso"
+
+msgid "Network"
+msgstr "Rede"
+
+msgid "Neutralizing"
+msgstr "Neutralizando"
+
+msgid "Never"
+msgstr "Nunca"
+
+msgid "New"
+msgstr "Novo"
+
+msgid "New Menu"
+msgstr "Novo Menu"
+
+msgid "New Menu..."
+msgstr "Novo Menu..."
+
+msgid "New Profile"
+msgstr "Novo Perfil"
+
+msgid "New Profile %s"
+msgstr "Novo Perfil %s"
+
+msgid "New file"
+msgstr "Novo arquivo"
+
+msgid "New folder"
+msgstr "Nova pasta"
+
+msgid "New profile..."
+msgstr "Novo perfil..."
+
+msgid "New value"
+msgstr "Novo valor"
+
+msgid "Newest"
+msgstr "Mais novo"
+
+msgid "News"
+msgstr "Notícias"
+
+msgid "Next"
+msgstr "Próximo"
+
+msgid "No"
+msgstr "Não"
+
+msgid "No Action"
+msgstr "Sem Ação"
+
+msgid "No changes"
+msgstr "Sem alterações"
+
+msgid "No controller connected"
+msgstr "Nenhum controle conectado"
+
+msgid "No game"
+msgstr "Nenhum jogo"
+
+msgid "No!. Bad, bad user!"
+msgstr "Não! Usuário terrível!"
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "None / Custom"
+msgstr "Nenhum / Personalizado"
+
+msgid "Normal - Exclusive Buttons"
+msgstr "Normal - Botões Exclusivos"
+
+msgid "Normal Button"
+msgstr "Botão Normal"
+
+msgid "Not"
+msgstr "Não"
+
+msgid "Not available"
+msgstr "Não disponível"
+
+msgid "Not equal"
+msgstr "Diferente de"
+
+msgid "Not found"
+msgstr "Não encontrado"
+
+msgid "Not getting"
+msgstr "Não obtendo"
+
+msgid "Not important"
+msgstr "Não importante"
+
+msgid "Not running"
+msgstr "Não está em execução"
+
+msgid "Not shared"
+msgstr "Não compartilhado"
+
+msgid "Not started"
+msgstr "Não iniciado"
+
+msgid "Not supported"
+msgstr "Não suportado"
+
+msgid "Not updated"
+msgstr "Não atualizado"
+
+msgid "Note"
+msgstr "Nota"
+
+msgid "Note: Gestures are not available with Wayland-based display server"
+msgstr "Nota: Gestos não estão disponíveis com servidor de exibição baseado em Wayland"
+
+msgid "Note: Imported profile contains actions sets."
+msgstr "Nota: O perfil importado contém conjuntos de ações."
+
+msgid "Note: Imported profile contains actions sets.\n"
+"\t\tEach set will be converted into separate, hidden profile with following names:"
+msgstr "Nota: O perfil importado contém conjuntos de ações.\n"
+"\t\tCada conjunto será convertido em perfil separado e oculto com os seguintes nomes:"
+
+msgid "Note: Mouse Region option is not available with Wayland-based display server"
+msgstr "Nota: A opção de Região do Mouse não está disponível com servidor de exibição baseado em Wayland"
+
+msgid "Note: python-evdev package is needed for non-steam controller support"
+msgstr "Nota: o pacote python-evdev é necessário para suporte a controles não-Steam"
+
+msgid "Notice"
+msgstr "Aviso"
+
+msgid "Noticing"
+msgstr "Notando"
+
+msgid "Notification"
+msgstr "Notificação"
+
+msgid "Notifying"
+msgstr "Notificando"
+
+msgid "Noting"
+msgstr "Anotando"
+
+msgid "Nullifying"
+msgstr "Anulando"
+
+msgid "Number"
+msgstr "Número"
+
+msgid "Number of Profiles to Display"
+msgstr "Número de Perfis a Exibir"
+
+msgid "Nursing"
+msgstr "Cuidando"
+
+msgid "Nurturing"
+msgstr "Nutrindo"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "OSD Colors"
+msgstr "Cores do OSD"
+
+msgid "OSD Menu Colors"
+msgstr "Cores do Menu OSD"
+
+msgid "OSD Message"
+msgstr "Mensagem OSD"
+
+msgid "OSD Style"
+msgstr "Estilo OSD"
+
+msgid "OSK"
+msgstr "Teclado Virtual"
+
+msgid "Objecting"
+msgstr "Objetando"
+
+msgid "Obligated to"
+msgstr "Obrigado a"
+
+msgid "Obliterating"
+msgstr "Obliterando"
+
+msgid "Obscuring"
+msgstr "Obscurecendo"
+
+msgid "Observing"
+msgstr "Observando"
+
+msgid "Obstructed"
+msgstr "Obstruído"
+
+msgid "Off"
+msgstr "Desligado"
+
+msgid "Offering"
+msgstr "Oferecendo"
+
+msgid "Offsetting"
+msgstr "Compensando"
+
+msgid "Old"
+msgstr "Antigo"
+
+msgid "Old value"
+msgstr "Valor antigo"
+
+msgid "Oldest"
+msgstr "Mais antigo"
+
+msgid "Omitting"
+msgstr "Omitindo"
+
+msgid "On"
+msgstr "Ligado"
+
+msgid "On Screen Keyboard"
+msgstr "Teclado na Tela"
+
+msgid "On hold"
+msgstr "Em espera"
+
+msgid "On-Screen Keyboard"
+msgstr "Teclado na Tela"
+
+msgid "On-Screen Keyboard Bindings"
+msgstr "Atribuições do Teclado na Tela"
+
+msgid "On-Screen Keyboard Colors"
+msgstr "Cores do Teclado na Tela"
+
+msgid "One-time"
+msgstr "Uma vez"
+
+msgid "Ongoing"
+msgstr "Em andamento"
+
+msgid "Opacity"
+msgstr "Opacidade"
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Open with"
+msgstr "Abrir com"
+
+msgid "Opening"
+msgstr "Abrindo"
+
+msgid "Operating"
+msgstr "Operando"
+
+msgid "Opposing"
+msgstr "Opondo"
+
+msgid "Optimization"
+msgstr "Otimização"
+
+msgid "Optimizing"
+msgstr "Otimizando"
+
+msgid "Opting"
+msgstr "Optando"
+
+msgid "Optional"
+msgstr "Opcional"
+
+msgid "Options"
+msgstr "Opções"
+
+msgid "Or"
+msgstr "Ou"
+
+msgid "Ordering"
+msgstr "Ordenando"
+
+msgid "Organization"
+msgstr "Organização"
+
+msgid "Organizing"
+msgstr "Organizando"
+
+msgid "Orientation"
+msgstr "Orientação"
+
+msgid "Original name"
+msgstr "Nome original"
+
+msgid "Original value"
+msgstr "Valor original"
+
+msgid "Originating"
+msgstr "Originando"
+
+msgid "Originating in"
+msgstr "Originando em"
+
+msgid "Other registered controllers"
+msgstr "Outros controles registrados"
+
+msgid "Out of range"
+msgstr "Fora do intervalo"
+
+msgid "Outdated"
+msgstr "Desatualizado"
+
+msgid "Outdoing"
+msgstr "Superando"
+
+msgid "Outer Ring"
+msgstr "Anel Externo"
+
+msgid "Outer Ring Starts at"
+msgstr "Anel Externo Começa em"
+
+msgid "Outline"
+msgstr "Contorno"
+
+msgid "Outpacing"
+msgstr "Ultrapassando"
+
+msgid "Outperforming"
+msgstr "Superando"
+
+msgid "Output"
+msgstr "Saída"
+
+msgid "Output As"
+msgstr "Saída Como"
+
+msgid "Output Axis"
+msgstr "Eixo de Saída"
+
+msgid "Output Buttons"
+msgstr "Botões de Saída"
+
+msgid "Output Mode"
+msgstr "Modo de Saída"
+
+msgid "Output Type"
+msgstr "Tipo de Saída"
+
+msgid "Outros controles registrados"
+msgstr "Outros controles registrados"
+
+msgid "Outshining"
+msgstr "Ofuscando"
+
+msgid "Over"
+msgstr "Acabado"
+
+msgid "Overdue"
+msgstr "Atrasado"
+
+msgid "Overflowing"
+msgstr "Transbordando"
+
+msgid "Overlooked"
+msgstr "Negligenciado"
+
+msgid "Overlooking"
+msgstr "Negligenciando"
+
+msgid "Override"
+msgstr "Substituir"
+
+msgid "Overriding"
+msgstr "Sobrescrevendo"
+
+msgid "Overseeing"
+msgstr "Supervisionando"
+
+msgid "Overshadowing"
+msgstr "Ofuscando"
+
+msgid "Overtaking"
+msgstr "Ultrapassando"
+
+msgid "Overview"
+msgstr "Visão geral"
+
+msgid "Overwhelmed"
+msgstr "Sobrecarregado"
+
+msgid "Overwriting"
+msgstr "Substituindo"
+
+msgid "Owner"
+msgstr "Proprietário"
+
+msgid "Owning"
+msgstr "Possuindo"
+
+msgid "Oxidized"
+msgstr "Oxidado"
+
+msgid "Packaging"
+msgstr "Empacotando"
+
+msgid "Packed"
+msgstr "Empacotado"
+
+msgid "Pad Sensitivity"
+msgstr "Sensibilidade do Pad"
+
+msgid "Pad binding with Inner ring binding"
+msgstr "Atribuição do pad com atribuição de anel interno"
+
+msgid "Pad binding with Outer ring binding"
+msgstr "Atribuição do pad com atribuição de anel externo"
+
+msgid "Page"
+msgstr "Página"
+
+msgid "Pages"
+msgstr "Páginas"
+
+msgid "Painting"
+msgstr "Pintando"
+
+msgid "Paired with"
+msgstr "Emparelhado com"
+
+msgid "Pairing"
+msgstr "Emparelhando"
+
+msgid "Panting"
+msgstr "Ofegando"
+
+msgid "Paragraph"
+msgstr "Parágrafo"
+
+msgid "Parsing"
+msgstr "Analisando"
+
+msgid "Part"
+msgstr "Parte"
+
+msgid "Partially Pressed Action"
+msgstr "Ação ao Pressionar Parcialmente"
+
+msgid "Partially Pressed Level"
+msgstr "Nível de Pressionamento Parcial"
+
+msgid "Pass"
+msgstr "Aprovar"
+
+msgid "Passed"
+msgstr "Aprovado"
+
+msgid "Passing"
+msgstr "Passando"
+
+msgid "Passing over"
+msgstr "Ignorando"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "Paste"
+msgstr "Colar"
+
+msgid "Pasting"
+msgstr "Colando"
+
+msgid "Patch"
+msgstr "Correção"
+
+msgid "Path"
+msgstr "Caminho"
+
+msgid "Pattern"
+msgstr "Padrão"
+
+msgid "Patterning"
+msgstr "Padronizando"
+
+msgid "Pause"
+msgstr "Pausar"
+
+msgid "Paused"
+msgstr "Pausado"
+
+msgid "Pausing"
+msgstr "Pausando"
+
+msgid "Peaking"
+msgstr "Atingindo o pico"
+
+msgid "Peeling"
+msgstr "Descascando"
+
+msgid "Pending"
+msgstr "Pendente"
+
+msgid "Per Axis"
+msgstr "Por Eixo"
+
+msgid "Perceiving"
+msgstr "Percebendo"
+
+msgid "Percentage"
+msgstr "Porcentagem"
+
+msgid "Perfecting"
+msgstr "Aperfeiçoando"
+
+msgid "Performance"
+msgstr "Desempenho"
+
+msgid "Performing"
+msgstr "Executando"
+
+msgid "Period"
+msgstr "Período"
+
+msgid "Permanent"
+msgstr "Permanente"
+
+msgid "Permission"
+msgstr "Permissão"
+
+msgid "Permission denied"
+msgstr "Permissão negada"
+
+msgid "Permissions"
+msgstr "Permissões"
+
+msgid "Permitting"
+msgstr "Permitindo"
+
+msgid "Persisting"
+msgstr "Persistindo"
+
+msgid "Personalization"
+msgstr "Personalização"
+
+msgid "Personalizing"
+msgstr "Personalizando"
+
+msgid "Picking"
+msgstr "Selecionando"
+
+msgid "Piloting"
+msgstr "Pilotando"
+
+msgid "Pinpointing"
+msgstr "Apontando"
+
+msgid "Pitch"
+msgstr "Inclinação"
+
+msgid "Placed in"
+msgstr "Colocado em"
+
+msgid "Play haptic feedback effect when Hold action is executed"
+msgstr "Reproduzir vibração quando a ação de manter for executada"
+
+msgid "Please restart SC Controller for the language change to take effect."
+msgstr "Por favor, reinicie o SC Controller para que a mudança de idioma tenha efeito."
+
+msgid "Please wait"
+msgstr "Por favor, aguarde"
+
+msgid "Please wait..."
+msgstr "Aguarde..."
+
+msgid "Please, check if you have reciever dongle connected to USB port."
+msgstr "Verifique se o dongle receptor está conectado a uma porta USB."
+
+msgid "Please, consult your distribution manual on how to enable uinput"
+msgstr "Consulte o manual da sua distribuição sobre como ativar o uinput"
+
+msgid "Please, consult your distribution manual on what in the world could cause this."
+msgstr "Consulte o manual da sua distribuição sobre o que poderia causar isso."
+
+msgid "Please, install xdotool package to use this feature"
+msgstr "Por favor, instale o pacote xdotool para usar este recurso"
+
+msgid "Please, select an option"
+msgstr "Por favor, selecione uma opção"
+
+msgid "Please, select your controller from list bellow and click Next."
+msgstr "Por favor, selecione seu controle da lista abaixo e clique em Próximo."
+
+msgid "Pointing"
+msgstr "Apontando"
+
+msgid "Pointing out"
+msgstr "Apontando"
+
+msgid "Points"
+msgstr "Pontos"
+
+msgid "Policy"
+msgstr "Política"
+
+msgid "Polishing"
+msgstr "Polindo"
+
+msgid "Polluted"
+msgstr "Poluído"
+
+msgid "Poor"
+msgstr "Ruim"
+
+msgid "Position"
+msgstr "Posição"
+
+msgid "Positioned in"
+msgstr "Posicionado em"
+
+msgid "Possessing"
+msgstr "Possuindo"
+
+msgid "Post"
+msgstr "Postagem"
+
+msgid "Postponed"
+msgstr "Adiado"
+
+msgid "Pouring"
+msgstr "Derramando"
+
+msgid "Power"
+msgstr "Energia"
+
+msgid "Powering off"
+msgstr "Desligando"
+
+msgid "Powering on"
+msgstr "Ligando"
+
+msgid "Practicing"
+msgstr "Praticando"
+
+msgid "Praising"
+msgstr "Elogiando"
+
+msgid "Precise"
+msgstr "Preciso"
+
+msgid "Predicted"
+msgstr "Previsto"
+
+msgid "Preferences"
+msgstr "Preferências"
+
+msgid "Preferring"
+msgstr "Preferindo"
+
+msgid "Preparing"
+msgstr "Preparando"
+
+msgid "Prepending"
+msgstr "Antepondo"
+
+msgid "Presenting"
+msgstr "Apresentando"
+
+msgid "Preserving"
+msgstr "Preservando"
+
+msgid "Preset"
+msgstr "Predefinição"
+
+msgid "Press"
+msgstr "Pressionar"
+
+msgid "Press Key Under LEFT Cursor"
+msgstr "Pressionar Tecla sob Cursor ESQUERDO"
+
+msgid "Press Key Under RIGHT Cursor"
+msgstr "Pressionar Tecla sob Cursor DIREITO"
+
+msgid "Press Keyboard Buttons"
+msgstr "Pressionar Botões do Teclado"
+
+msgid "Press LEFT mouse button"
+msgstr "Pressionar botão ESQUERDO do mouse"
+
+msgid "Press RIGHT mouse button"
+msgstr "Pressionar botão DIREITO do mouse"
+
+msgid "Press a button..."
+msgstr "Pressione um botão..."
+
+msgid "Press any key..."
+msgstr "Pressione qualquer tecla..."
+
+msgid "Press any key/button..."
+msgstr "Pressione qualquer tecla/botão..."
+
+msgid "Press button..."
+msgstr "Pressione o botão..."
+
+msgid "Press stick or button..."
+msgstr "Pressione o analógico ou botão..."
+
+msgid "Pressed Button"
+msgstr "Botão Pressionado"
+
+msgid "Pressing the Pad Clicks"
+msgstr "Pressionar o Pad Clica"
+
+msgid "Pressured"
+msgstr "Pressionado"
+
+msgid "Prevented"
+msgstr "Prevenido"
+
+msgid "Prevention"
+msgstr "Prevenção"
+
+msgid "Preview"
+msgstr "Visualizar"
+
+msgid "Preview Changes Immediately"
+msgstr "Visualizar Alterações Imediatamente"
+
+msgid "Preview Immediately"
+msgstr "Visualizar Imediatamente"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Previous value"
+msgstr "Valor anterior"
+
+msgid "Priming"
+msgstr "Preparando"
+
+msgid "Print"
+msgstr "Imprimir"
+
+msgid "Priority"
+msgstr "Prioridade"
+
+msgid "Privacy"
+msgstr "Privacidade"
+
+msgid "Private"
+msgstr "Privado"
+
+msgid "Prizing"
+msgstr "Valorizando"
+
+msgid "Proceeding"
+msgstr "Prosseguindo"
+
+msgid "Proceeding from"
+msgstr "Procedendo de"
+
+msgid "Processing"
+msgstr "Processando"
+
+msgid "Proclaiming"
+msgstr "Proclamando"
+
+msgid "Producing"
+msgstr "Produzindo"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Profile D_etails"
+msgstr "D_etalhes do Perfil"
+
+msgid "Profile Details"
+msgstr "Detalhes do Perfil"
+
+msgid "Profile Name"
+msgstr "Nome do Perfil"
+
+msgid "Profile deleted"
+msgstr "Perfil excluído"
+
+msgid "Profile imported with warnings"
+msgstr "Perfil importado com avisos"
+
+msgid "Profile is _template"
+msgstr "Perfil é _modelo"
+
+msgid "Profile loaded"
+msgstr "Perfil carregado"
+
+msgid "Profile name"
+msgstr "Nome do perfil"
+
+msgid "Profile saved"
+msgstr "Perfil salvo"
+
+msgid "Profile sucessfully imported"
+msgstr "Perfil importado com sucesso"
+
+msgid "Progress"
+msgstr "Progresso"
+
+msgid "Progressing"
+msgstr "Progredindo"
+
+msgid "Project"
+msgstr "Projeto"
+
+msgid "Pronouncing"
+msgstr "Pronunciando"
+
+msgid "Proofreading"
+msgstr "Revisando"
+
+msgid "Propelling"
+msgstr "Impulsionando"
+
+msgid "Properties"
+msgstr "Propriedades"
+
+msgid "Proposing"
+msgstr "Propondo"
+
+msgid "Propping up"
+msgstr "Sustentando"
+
+msgid "Protected"
+msgstr "Protegido"
+
+msgid "Protecting"
+msgstr "Protegendo"
+
+msgid "Protection"
+msgstr "Proteção"
+
+msgid "Protesting"
+msgstr "Protestando"
+
+msgid "Providing"
+msgstr "Fornecendo"
+
+msgid "Public"
+msgstr "Público"
+
+msgid "Published"
+msgstr "Publicado"
+
+msgid "Publishing"
+msgstr "Publicando"
+
+msgid "Puffing"
+msgstr "Soprando"
+
+msgid "Pull a trigger..."
+msgstr "Puxe um gatilho..."
+
+msgid "Pulling"
+msgstr "Puxando"
+
+msgid "Pulling back"
+msgstr "Recuando"
+
+msgid "Pulling out"
+msgstr "Puxando para fora"
+
+msgid "Purging"
+msgstr "Purgando"
+
+msgid "Pushing"
+msgstr "Empurrando"
+
+msgid "Pushing the boundary"
+msgstr "Empurrando o limite"
+
+msgid "Putting aside"
+msgstr "Deixando de lado"
+
+msgid "Putting away"
+msgstr "Guardando"
+
+msgid "Quality"
+msgstr "Qualidade"
+
+msgid "Querying"
+msgstr "Questionando"
+
+msgid "Questioning"
+msgstr "Questionando"
+
+msgid "Quick Menu"
+msgstr "Menu Rápido"
+
+msgid "Quit"
+msgstr "Sair"
+
+msgid "Quota"
+msgstr "Cota"
+
+msgid "Radial Menu"
+msgstr "Menu Radial"
+
+msgid "Raising"
+msgstr "Criando"
+
+msgid "Range"
+msgstr "Intervalo"
+
+msgid "Rank"
+msgstr "Classificação"
+
+msgid "Ranking"
+msgstr "Classificando"
+
+msgid "Rating"
+msgstr "Avaliando"
+
+msgid "Ratio"
+msgstr "Proporção"
+
+msgid "Ravaging"
+msgstr "Devastando"
+
+msgid "Raw Input"
+msgstr "Entrada Bruta"
+
+msgid "Reaching"
+msgstr "Alcançando"
+
+msgid "Reaching new heights"
+msgstr "Alcançando novos patamares"
+
+msgid "Reaching out"
+msgstr "Estendendo a mão"
+
+msgid "Reaching the limit"
+msgstr "Atingindo o limite"
+
+msgid "Reacting"
+msgstr "Reagindo"
+
+msgid "Read"
+msgstr "Ler"
+
+msgid "Ready"
+msgstr "Pronto"
+
+msgid "Readying"
+msgstr "Preparando"
+
+msgid "Realizing"
+msgstr "Percebendo"
+
+msgid "Really delete current profile?"
+msgstr "Realmente excluir o perfil atual?"
+
+msgid "Really delete selected global menu?"
+msgstr "Realmente excluir o menu global selecionado?"
+
+msgid "Really delete selected menu?"
+msgstr "Realmente excluir o menu selecionado?"
+
+msgid "Really revert current profile to default values?"
+msgstr "Realmente reverter o perfil atual para os valores padrão?"
+
+msgid "Rearing"
+msgstr "Criando"
+
+msgid "Reassuring"
+msgstr "Tranquilizando"
+
+msgid "Rebelling"
+msgstr "Rebelando"
+
+msgid "Rebooting"
+msgstr "Reiniciando"
+
+msgid "Recapturing"
+msgstr "Recapturando"
+
+msgid "Receiving"
+msgstr "Recebendo"
+
+msgid "Recent"
+msgstr "Recente"
+
+msgid "Recent List"
+msgstr "Lista Recente"
+
+msgid "Recenter gyro sensor"
+msgstr "Recentrar sensor giroscópio"
+
+msgid "Reclaiming"
+msgstr "Recuperando"
+
+msgid "Reclining"
+msgstr "Reclinando"
+
+msgid "Recognizing"
+msgstr "Reconhecendo"
+
+msgid "Recoiling"
+msgstr "Recuando"
+
+msgid "Recommendation"
+msgstr "Recomendação"
+
+msgid "Recommended"
+msgstr "Recomendado"
+
+msgid "Recommending"
+msgstr "Recomendando"
+
+msgid "Recompensing"
+msgstr "Recompensando"
+
+msgid "Record"
+msgstr "Registro"
+
+msgid "Recording"
+msgstr "Gravando"
+
+msgid "Recouping"
+msgstr "Recuperando"
+
+msgid "Recovering"
+msgstr "Recuperando"
+
+msgid "Recovery"
+msgstr "Recuperação"
+
+msgid "Rectifying"
+msgstr "Retificando"
+
+msgid "Recurring"
+msgstr "Recorrente"
+
+msgid "Red"
+msgstr "Vermelho"
+
+msgid "Red colored controls are not assigned."
+msgstr "Controles em vermelho não estão atribuídos."
+
+msgid "Redo"
+msgstr "Refazer"
+
+msgid "Redoing"
+msgstr "Refazendo"
+
+msgid "Reducing"
+msgstr "Reduzindo"
+
+msgid "Refactoring"
+msgstr "Refatoração"
+
+msgid "Reference"
+msgstr "Referência"
+
+msgid "Refining"
+msgstr "Refinando"
+
+msgid "Reflecting"
+msgstr "Refletindo"
+
+msgid "Refresh"
+msgstr "Atualizar"
+
+msgid "Refreshing"
+msgstr "Refrescando"
+
+msgid "Refunding"
+msgstr "Reembolsando"
+
+msgid "Refused"
+msgstr "Recusado"
+
+msgid "Refusing"
+msgstr "Recusando"
+
+msgid "Regaining"
+msgstr "Recuperando"
+
+msgid "Regenerating"
+msgstr "Regenerando"
+
+msgid "Region"
+msgstr "Região"
+
+msgid "Region Options"
+msgstr "Opções de Região"
+
+msgid "Register"
+msgstr "Registrar"
+
+msgid "Register New Controller"
+msgstr "Registrar Novo Controle"
+
+msgid "Regulating"
+msgstr "Regulando"
+
+msgid "Rehabilitating"
+msgstr "Reabilitando"
+
+msgid "Rehearsing"
+msgstr "Ensaiando"
+
+msgid "Reimbursing"
+msgstr "Reembolsando"
+
+msgid "Reinforcing"
+msgstr "Reforçando"
+
+msgid "Rejected"
+msgstr "Rejeitado"
+
+msgid "Rejecting"
+msgstr "Rejeitando"
+
+msgid "Rejuvenating"
+msgstr "Rejuvenescendo"
+
+msgid "Relative"
+msgstr "Relativo"
+
+msgid "Relative to Active Window Size"
+msgstr "Relativo ao Tamanho da Janela Ativa"
+
+msgid "Relative to Bottom-Left Corner of Active Window"
+msgstr "Relativo ao Canto Inferior Esquerdo da Janela Ativa"
+
+msgid "Relative to Bottom-Left Corner of Screen"
+msgstr "Relativo ao Canto Inferior Esquerdo da Tela"
+
+msgid "Relative to Bottom-Right Corner of Active Window"
+msgstr "Relativo ao Canto Inferior Direito da Janela Ativa"
+
+msgid "Relative to Bottom-Right Corner of Screen"
+msgstr "Relativo ao Canto Inferior Direito da Tela"
+
+msgid "Relative to Screen Size"
+msgstr "Relativo ao Tamanho da Tela"
+
+msgid "Relative to Top-Left Corner of Active Window"
+msgstr "Relativo ao Canto Superior Esquerdo da Janela Ativa"
+
+msgid "Relative to Top-Left Corner of Screen"
+msgstr "Relativo ao Canto Superior Esquerdo da Tela"
+
+msgid "Relative to Top-Right Corner of Active Window"
+msgstr "Relativo ao Canto Superior Direito da Janela Ativa"
+
+msgid "Relative to Top-Right Corner of Screen"
+msgstr "Relativo ao Canto Superior Direito da Tela"
+
+msgid "Relaxing"
+msgstr "Relaxando"
+
+msgid "Release"
+msgstr "Lançamento"
+
+msgid "Release Action"
+msgstr "Ação ao Soltar"
+
+msgid "Releasing"
+msgstr "Liberando"
+
+msgid "Reload"
+msgstr "Recarregar"
+
+msgid "Reloaded"
+msgstr "Recarregado"
+
+msgid "Relocating"
+msgstr "Relocando"
+
+msgid "Remaining"
+msgstr "Permanecendo"
+
+msgid "Remap"
+msgstr "Remapear"
+
+msgid "Remark"
+msgstr "Observação"
+
+msgid "Remedying"
+msgstr "Remediando"
+
+msgid "Remember my choice"
+msgstr "Lembrar minha escolha"
+
+msgid "Reminder"
+msgstr "Lembrete"
+
+msgid "Remove"
+msgstr "Remover"
+
+msgid "Removing"
+msgstr "Removendo"
+
+msgid "Rename"
+msgstr "Renomear"
+
+msgid "Rename Profile"
+msgstr "Renomear Perfil"
+
+msgid "Rendering"
+msgstr "Renderizando"
+
+msgid "Renewing"
+msgstr "Renovando"
+
+msgid "Repair"
+msgstr "Reparo"
+
+msgid "Repaying"
+msgstr "Reembolsando"
+
+msgid "Repealing"
+msgstr "Revogando"
+
+msgid "Repeat"
+msgstr "Repetir"
+
+msgid "Repeat same gesture or press A button to confirm..."
+msgstr "Repita o mesmo gesto ou pressione A para confirmar..."
+
+msgid "Repeated %s times"
+msgstr "Repetido %s vezes"
+
+msgid "Replace"
+msgstr "Substituir"
+
+msgid "Replacing"
+msgstr "Substituindo"
+
+msgid "Replicating"
+msgstr "Replicando"
+
+msgid "Replying"
+msgstr "Respondendo"
+
+msgid "Reporting"
+msgstr "Relatando"
+
+msgid "Repossessing"
+msgstr "Repossuindo"
+
+msgid "Representing"
+msgstr "Representando"
+
+msgid "Reproducing"
+msgstr "Reproduzindo"
+
+msgid "Requesting"
+msgstr "Solicitando"
+
+msgid "Require Click"
+msgstr "Exigir Clique"
+
+msgid "Required"
+msgstr "Obrigatório"
+
+msgid "Requires restart"
+msgstr "Requer reinicialização"
+
+msgid "Requiring"
+msgstr "Exigindo"
+
+msgid "Rescinding"
+msgstr "Rescindindo"
+
+msgid "Rescuing"
+msgstr "Resgatando"
+
+msgid "Resenting"
+msgstr "Ressentindo"
+
+msgid "Reset"
+msgstr "Redefinir"
+
+msgid "Reset to Default"
+msgstr "Redefinir para Padrão"
+
+msgid "Resetting"
+msgstr "Redefinindo"
+
+msgid "Resisting"
+msgstr "Resistindo"
+
+msgid "Resize"
+msgstr "Redimensionar"
+
+msgid "Resolute in"
+msgstr "Resoluto em"
+
+msgid "Resolved to"
+msgstr "Resolvido a"
+
+msgid "Respecting"
+msgstr "Respeitando"
+
+msgid "Responding"
+msgstr "Respondendo"
+
+msgid "Restart Daemon"
+msgstr "Reiniciar Daemon"
+
+msgid "Restart Emulation"
+msgstr "Reiniciar Emulação"
+
+msgid "Restart required for language change"
+msgstr "Reinicialização necessária para alterar o idioma"
+
+msgid "Restarting"
+msgstr "Reiniciando"
+
+msgid "Resting"
+msgstr "Descansando"
+
+msgid "Restore"
+msgstr "Restaurar"
+
+msgid "Restore defaults"
+msgstr "Restaurar padrões"
+
+msgid "Restore from backup"
+msgstr "Restaurar do backup"
+
+msgid "Restoring"
+msgstr "Restaurando"
+
+msgid "Restricted"
+msgstr "Restrito"
+
+msgid "Restricting"
+msgstr "Restringindo"
+
+msgid "Restriction"
+msgstr "Restrição"
+
+msgid "Resulting from"
+msgstr "Resultando de"
+
+msgid "Resume"
+msgstr "Continuar"
+
+msgid "Resumed"
+msgstr "Retomado"
+
+msgid "Resuming"
+msgstr "Retomando"
+
+msgid "Retaining"
+msgstr "Retendo"
+
+msgid "Retaking"
+msgstr "Retomando"
+
+msgid "Retreating"
+msgstr "Recuando"
+
+msgid "Retrieval"
+msgstr "Recuperação"
+
+msgid "Retrieving"
+msgstr "Recuperando"
+
+msgid "Returning"
+msgstr "Retornando"
+
+msgid "Revealing"
+msgstr "Revelando"
+
+msgid "Revering"
+msgstr "Reverenciando"
+
+msgid "Revert Profile to Defaults"
+msgstr "Reverter Perfil para Padrões"
+
+msgid "Reverting"
+msgstr "Revertendo"
+
+msgid "Reviewing"
+msgstr "Revisando"
+
+msgid "Revising"
+msgstr "Revisando"
+
+msgid "Revision"
+msgstr "Revisão"
+
+msgid "Revitalizing"
+msgstr "Revitalizando"
+
+msgid "Revoking"
+msgstr "Revogando"
+
+msgid "Revolting"
+msgstr "Revoltando"
+
+msgid "Right"
+msgstr "Direita"
+
+msgid "Right Bumper"
+msgstr "Bumper Direito"
+
+msgid "Right Grip"
+msgstr "Grip Direito"
+
+msgid "Right Pad"
+msgstr "Pad Direito"
+
+msgid "Right Pad Angle"
+msgstr "Ângulo do Pad Direito"
+
+msgid "Right Pad Press"
+msgstr "Pressionar Pad Direito"
+
+msgid "Right Pad Pressed"
+msgstr "Pad Direito Pressionado"
+
+msgid "Right Pad Touched"
+msgstr "Pad Direito Tocado"
+
+msgid "Right Stick"
+msgstr "Analógico Direito"
+
+msgid "Right Stick (Absolute)"
+msgstr "Analógico Direito (Absoluto)"
+
+msgid "Right Stick (Camera)"
+msgstr "Analógico Direito (Câmera)"
+
+msgid "Right Strick"
+msgstr "Analógico Direito"
+
+msgid "Right Trigger"
+msgstr "Gatilho Direito"
+
+msgid "Right Trigger (full)"
+msgstr "Gatilho Direito (total)"
+
+msgid "Right Trigger (soft)"
+msgstr "Gatilho Direito (suave)"
+
+msgid "Right stick (right pad)"
+msgstr "Analógico direito (pad direito)"
+
+msgid "Right-aligned OSD"
+msgstr "OSD alinhado à direita"
+
+msgid "Ring Bindings"
+msgstr "Atribuições de Anel"
+
+msgid "Ripped"
+msgstr "Rasgado"
+
+msgid "Rising"
+msgstr "Subindo"
+
+msgid "Rising up"
+msgstr "Levantando-se"
+
+msgid "Rivaling"
+msgstr "Rivalizando"
+
+msgid "Roaming"
+msgstr "Vagando"
+
+msgid "Roaring"
+msgstr "Rugindo"
+
+msgid "Role"
+msgstr "Função"
+
+msgid "Roll"
+msgstr "Rolagem"
+
+msgid "Rolling"
+msgstr "Rolando"
+
+msgid "Rooted in"
+msgstr "Enraizado em"
+
+msgid "Rotate"
+msgstr "Girar"
+
+msgid "Rotating"
+msgstr "Girando"
+
+msgid "Rotation"
+msgstr "Rotação"
+
+msgid "Round Up"
+msgstr "Arredondar para Cima"
+
+msgid "Ruining"
+msgstr "Arruinando"
+
+msgid "Run Program..."
+msgstr "Executar Programa..."
+
+msgid "Run once"
+msgstr "Executar uma vez"
+
+msgid "Running"
+msgstr "Executando"
+
+msgid "Running as root"
+msgstr "Executando como root"
+
+msgid "Running away"
+msgstr "Fugindo"
+
+msgid "Rushing"
+msgstr "Correndo"
+
+msgid "Rusted"
+msgstr "Enferrujado"
+
+msgid "SC Controller"
+msgstr "SC Controller"
+
+msgid "SC Controller was upgraded"
+msgstr "SC Controller foi atualizado"
+
+msgid "SC-Controller"
+msgstr "SC-Controller"
+
+msgid "Safeguarding"
+msgstr "Protegendo"
+
+msgid "Safety"
+msgstr "Segurança"
+
+msgid "Sailing"
+msgstr "Navegando"
+
+msgid "Salvaging"
+msgstr "Resgatando"
+
+msgid "Sample"
+msgstr "Amostra"
+
+msgid "Satisfactory"
+msgstr "Satisfatório"
+
+msgid "Save"
+msgstr "Salvar"
+
+msgid "Save As..."
+msgstr "Salvar Como..."
+
+msgid "Save Profile"
+msgstr "Salvar Perfil"
+
+msgid "Save as"
+msgstr "Salvar como"
+
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+msgid "Save changes?"
+msgstr "Salvar alterações?"
+
+msgid "Saving"
+msgstr "Salvando"
+
+msgid "Saving..."
+msgstr "Salvando..."
+
+msgid "Scale"
+msgstr "Escala"
+
+msgid "Scaling"
+msgstr "Escalando"
+
+msgid "Scanning"
+msgstr "Escaneamento"
+
+msgid "Scheduled"
+msgstr "Agendado"
+
+msgid "Schooling"
+msgstr "Ensinando"
+
+msgid "Score"
+msgstr "Pontuação"
+
+msgid "Scorning"
+msgstr "Desprezando"
+
+msgid "Scowling"
+msgstr "Franzindo a testa"
+
+msgid "Screaming"
+msgstr "Gritando"
+
+msgid "Scroll"
+msgstr "Rolar"
+
+msgid "Scroll Action"
+msgstr "Ação de Rolar"
+
+msgid "Search"
+msgstr "Pesquisar"
+
+msgid "Searching"
+msgstr "Pesquisando"
+
+msgid "Searching for profiles. This may take som time."
+msgstr "Procurando perfis. Isso pode levar algum tempo."
+
+msgid "Section"
+msgstr "Seção"
+
+msgid "Secure"
+msgstr "Seguro"
+
+msgid "Secured to"
+msgstr "Fixado a"
+
+msgid "Security"
+msgstr "Segurança"
+
+msgid "See wiki for instructions and more on Remote RetroPad protocol."
+msgstr "Veja a wiki para instruções e mais sobre o protocolo Remote RetroPad."
+
+msgid "Seeing"
+msgstr "Vendo"
+
+msgid "Seizing"
+msgstr "Agarrando"
+
+msgid "Select"
+msgstr "Selecionar"
+
+msgid "Select All"
+msgstr "Selecionar Tudo"
+
+msgid "Select Analog Axis"
+msgstr "Selecionar Eixo Analógico"
+
+msgid "Select Axis"
+msgstr "Selecionar Eixo"
+
+msgid "Select Button"
+msgstr "Selecionar Botão"
+
+msgid "Select DPAD Action"
+msgstr "Selecionar Ação do DPAD"
+
+msgid "Select Fully Pressed Action"
+msgstr "Selecionar Ação de Pressão Total"
+
+msgid "Select Partialy Pressed Action"
+msgstr "Selecionar Ação de Pressão Parcial"
+
+msgid "Select Profile to Export"
+msgstr "Selecionar Perfil para Exportar"
+
+msgid "Select Profile to Import"
+msgstr "Selecionar Perfil para Importar"
+
+msgid "Select Tilt Action"
+msgstr "Selecionar Ação de Inclinação"
+
+msgid "Selected"
+msgstr "Selecionado"
+
+msgid "Selected Background"
+msgstr "Fundo Selecionado"
+
+msgid "Selected Border"
+msgstr "Borda Selecionada"
+
+msgid "Selected Text"
+msgstr "Texto Selecionado"
+
+msgid "Selected profile references another profile(s) or menu(s)."
+msgstr "O perfil selecionado faz referência a outro(s) perfil(is) ou menu(s)."
+
+msgid "Selected profile references another profile(s) or menu(s).\n"
+"You may wish to export and package referenced items along with it.\n"
+"Otherwise, profile switching or menus may not work when profile is imported.\n"
+"\n"
+"Please, select what should be packaged along with exported profile."
+msgstr "O perfil selecionado referencia outro(s) perfil(is) ou menu(s).\n"
+"Você pode querer exportar e empacotar os itens referenciados junto com ele.\n"
+"Caso contrário, a troca de perfis ou menus pode não funcionar ao importar o perfil.\n"
+"\n"
+"Por favor, selecione o que deve ser empacotado junto com o perfil exportado."
+
+msgid "Selecting"
+msgstr "Selecionando"
+
+msgid "Sending"
+msgstr "Enviando"
+
+msgid "Sensing"
+msgstr "Sentindo"
+
+msgid "Sensitivity"
+msgstr "Sensibilidade"
+
+msgid "Sensitivity X"
+msgstr "Sensibilidade X"
+
+msgid "Sensitivity Y"
+msgstr "Sensibilidade Y"
+
+msgid "Separate X/Y"
+msgstr "Separar X/Y"
+
+msgid "Separating"
+msgstr "Separando"
+
+msgid "Separator Name"
+msgstr "Nome do Separador"
+
+msgid "Separator Text"
+msgstr "Texto do Separador"
+
+msgid "Sequencing"
+msgstr "Sequenciando"
+
+msgid "Serving"
+msgstr "Servindo"
+
+msgid "Set in"
+msgstr "Situado em"
+
+msgid "Set on"
+msgstr "Decidido a"
+
+msgid "Setting aside"
+msgstr "Reservando"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Settled on"
+msgstr "Decidido por"
+
+msgid "Settling"
+msgstr "Assentando"
+
+msgid "Shading"
+msgstr "Sombreando"
+
+msgid "Shadow"
+msgstr "Sombra"
+
+msgid "Shadowing"
+msgstr "Sombreando"
+
+msgid "Shared"
+msgstr "Compartilhado"
+
+msgid "Sharing"
+msgstr "Compartilhando"
+
+msgid "Shattered"
+msgstr "Despedaçado"
+
+msgid "Shedding"
+msgstr "Descartando"
+
+msgid "Shell Command"
+msgstr "Comando Shell"
+
+msgid "Shielding"
+msgstr "Protegendo"
+
+msgid "Shift and Ctrl"
+msgstr "Shift e Ctrl"
+
+msgid "Shifting"
+msgstr "Mudando"
+
+msgid "Shoring up"
+msgstr "Reforçando"
+
+msgid "Shortening"
+msgstr "Encurtando"
+
+msgid "Shouting"
+msgstr "Gritando"
+
+msgid "Shoving"
+msgstr "Empurrando"
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "Show All Devices"
+msgstr "Mostrar Todos os Dispositivos"
+
+msgid "Show Bindings"
+msgstr "Mostrar Atribuições"
+
+msgid "Show Current Bindings"
+msgstr "Mostrar Atribuições Atuais"
+
+msgid "Show OSD"
+msgstr "Mostrar OSD"
+
+msgid "Show OSD Message"
+msgstr "Mostrar Mensagem OSD"
+
+msgid "Show _OSD notification when profile is switched automatically"
+msgstr "Mostrar notificação _OSD quando o perfil for trocado automaticamente"
+
+msgid "Show details"
+msgstr "Mostrar detalhes"
+
+msgid "Show/Hide Window"
+msgstr "Mostrar/Ocultar Janela"
+
+msgid "Show/Hide _Window"
+msgstr "Mostrar/Ocultar _Janela"
+
+msgid "Showcasing"
+msgstr "Mostrando"
+
+msgid "Showing"
+msgstr "Mostrando"
+
+msgid "Showing up"
+msgstr "Aparecendo"
+
+msgid "Shredded"
+msgstr "Rasgado"
+
+msgid "Shrinking"
+msgstr "Encolhendo"
+
+msgid "Shrinking back"
+msgstr "Recuando"
+
+msgid "Shrouding"
+msgstr "Encobrindo"
+
+msgid "Shunning"
+msgstr "Evitando"
+
+msgid "Shutting down"
+msgstr "Desligando"
+
+msgid "Shutting out"
+msgstr "Excluindo"
+
+msgid "Sick"
+msgstr "Doente"
+
+msgid "Side"
+msgstr "Lado"
+
+msgid "Sighing"
+msgstr "Suspirando"
+
+msgid "Sign"
+msgstr "Sinal"
+
+msgid "Sign in"
+msgstr "Fazer login"
+
+msgid "Sign out"
+msgstr "Fazer logout"
+
+msgid "Sign up"
+msgstr "Cadastrar-se"
+
+msgid "Signifying"
+msgstr "Significando"
+
+msgid "Simple"
+msgstr "Simples"
+
+msgid "Simple DPAD"
+msgstr "DPAD Simples"
+
+msgid "Simulating"
+msgstr "Simulando"
+
+msgid "Single Button"
+msgstr "Botão Único"
+
+msgid "Single DPAD (NES/SNES controller)"
+msgstr "DPAD único (controle NES/SNES)"
+
+msgid "Single stick"
+msgstr "Analógico único"
+
+msgid "Sitting"
+msgstr "Sentando"
+
+msgid "Situated in"
+msgstr "Situado em"
+
+msgid "Size"
+msgstr "Tamanho"
+
+msgid "Skidding"
+msgstr "Derrapando"
+
+msgid "Skipping"
+msgstr "Pulando"
+
+msgid "Skipping over"
+msgstr "Pulando"
+
+msgid "Sleeping"
+msgstr "Dormindo"
+
+msgid "Sliding"
+msgstr "Deslizando"
+
+msgid "Slipping"
+msgstr "Deslizando"
+
+msgid "Small"
+msgstr "Pequeno"
+
+msgid "Smaller"
+msgstr "Menor"
+
+msgid "Smashed"
+msgstr "Esmagado"
+
+msgid "Smiling"
+msgstr "Sorrindo"
+
+msgid "Smoothing"
+msgstr "Suavização"
+
+msgid "Smoothing Enabled"
+msgstr "Suavização Ativada"
+
+msgid "Sneezing"
+msgstr "Espirrando"
+
+msgid "Snickering"
+msgstr "Rindo"
+
+msgid "Sniffing"
+msgstr "Fungando"
+
+msgid "Snoring"
+msgstr "Roncando"
+
+msgid "Snorting"
+msgstr "Bufando"
+
+msgid "Soaring"
+msgstr "Voando"
+
+msgid "Sobbing"
+msgstr "Soluçando"
+
+msgid "Soft Level"
+msgstr "Nível Suave"
+
+msgid "Soft Pull Level"
+msgstr "Nível de Puxada Suave"
+
+msgid "Soiled"
+msgstr "Sujo"
+
+msgid "Soothing"
+msgstr "Acalmando"
+
+msgid "Sort"
+msgstr "Ordenar"
+
+msgid "Sorting"
+msgstr "Ordenando"
+
+msgid "Sound"
+msgstr "Som"
+
+msgid "Spanning"
+msgstr "Abrangendo"
+
+msgid "Speaking"
+msgstr "Falando"
+
+msgid "Speaking up"
+msgstr "Manifestando-se"
+
+msgid "Special Action"
+msgstr "Ação Especial"
+
+msgid "Special Button"
+msgstr "Botão Especial"
+
+msgid "Specifying"
+msgstr "Especificando"
+
+msgid "Speed"
+msgstr "Velocidade"
+
+msgid "Spilling"
+msgstr "Derramando"
+
+msgid "Spinning"
+msgstr "Girando"
+
+msgid "Split"
+msgstr "Dividido"
+
+msgid "Splitting"
+msgstr "Dividindo"
+
+msgid "Sponsoring"
+msgstr "Patrocinando"
+
+msgid "Sporting"
+msgstr "Ostentando"
+
+msgid "Spotlighting"
+msgstr "Destacando"
+
+msgid "Spotting"
+msgstr "Avistando"
+
+msgid "Spreading"
+msgstr "Espalhando"
+
+msgid "Springing from"
+msgstr "Brotando de"
+
+msgid "Spurning"
+msgstr "Rejeitando"
+
+msgid "Stained"
+msgstr "Manchado"
+
+msgid "Standing"
+msgstr "Ficando em pé"
+
+msgid "Standing up"
+msgstr "Levantando-se"
+
+msgid "Star"
+msgstr "Estrela"
+
+msgid "Start"
+msgstr "Iniciar"
+
+msgid "Start Daemon"
+msgstr "Iniciar Daemon"
+
+msgid "Start _Over (Y)"
+msgstr "Recomeçar (Y)"
+
+msgid "Starting"
+msgstr "Iniciando"
+
+msgid "Starts with"
+msgstr "Começa com"
+
+msgid "Static"
+msgstr "Estático"
+
+msgid "Stating"
+msgstr "Declarando"
+
+msgid "Staying"
+msgstr "Ficando"
+
+msgid "Steadfast in"
+msgstr "Firme em"
+
+msgid "Steering"
+msgstr "Dirigindo"
+
+msgid "Stemming from"
+msgstr "Originando-se de"
+
+msgid "Stepping up"
+msgstr "Assumindo"
+
+msgid "Stick"
+msgstr "Analógico"
+
+msgid "Stick Action"
+msgstr "Ação de Analógico"
+
+msgid "Stick Movement"
+msgstr "Movimento do Analógico"
+
+msgid "Stick Press"
+msgstr "Pressionar Analógico"
+
+msgid "Stick Pressed"
+msgstr "Analógico Pressionado"
+
+msgid "Stick Tilted"
+msgstr "Analógico Inclinado"
+
+msgid "Stick deadzone"
+msgstr "Zona morta do Analógico"
+
+msgid "Sticks"
+msgstr "Analógicos"
+
+msgid "Stimulating"
+msgstr "Estimulando"
+
+msgid "Stooping"
+msgstr "Curvando-se"
+
+msgid "Stop"
+msgstr "Parar"
+
+msgid "Stop Daemon"
+msgstr "Parar Daemon"
+
+msgid "Stopped"
+msgstr "Parado"
+
+msgid "Stopping"
+msgstr "Parando"
+
+msgid "Stored in Profile"
+msgstr "Armazenado no Perfil"
+
+msgid "Storing"
+msgstr "Armazenando"
+
+msgid "Stowing"
+msgstr "Guardando"
+
+msgid "Straggling"
+msgstr "Ficando para trás"
+
+msgid "Strained"
+msgstr "Tenso"
+
+msgid "Streaming"
+msgstr "Fluindo"
+
+msgid "Strength"
+msgstr "Intensidade"
+
+msgid "Strengthening"
+msgstr "Fortalecendo"
+
+msgid "Stressed"
+msgstr "Estressado"
+
+msgid "Stressing"
+msgstr "Enfatizando"
+
+msgid "Stretch"
+msgstr "Esticar"
+
+msgid "Stretching"
+msgstr "Alongando"
+
+msgid "Stripping"
+msgstr "Despindo"
+
+msgid "Striving for"
+msgstr "Esforçando-se por"
+
+msgid "Struck"
+msgstr "Golpeado"
+
+msgid "Structuring"
+msgstr "Estruturando"
+
+msgid "Struggling for"
+msgstr "Lutando por"
+
+msgid "Style"
+msgstr "Estilo"
+
+msgid "Styling"
+msgstr "Estilizando"
+
+msgid "Subcategory"
+msgstr "Subcategoria"
+
+msgid "Subtype"
+msgstr "Subtipo"
+
+msgid "Success"
+msgstr "Sucesso"
+
+msgid "Suffering"
+msgstr "Sofrendo"
+
+msgid "Suggesting"
+msgstr "Sugerindo"
+
+msgid "Suggestion"
+msgstr "Sugestão"
+
+msgid "Sum"
+msgstr "Soma"
+
+msgid "Summarizing"
+msgstr "Resumindo"
+
+msgid "Summary"
+msgstr "Resumo"
+
+msgid "Supervising"
+msgstr "Supervisionando"
+
+msgid "Supplying"
+msgstr "Fornecendo"
+
+msgid "Support"
+msgstr "Suporte"
+
+msgid "Supporting"
+msgstr "Apoiando"
+
+msgid "Surfacing"
+msgstr "Emergindo"
+
+msgid "Surging"
+msgstr "Surgindo"
+
+msgid "Surpassing"
+msgstr "Superando"
+
+msgid "Surrounding"
+msgstr "Cercando"
+
+msgid "Surviving"
+msgstr "Sobrevivendo"
+
+msgid "Suspending"
+msgstr "Suspendendo"
+
+msgid "Sustaining"
+msgstr "Sustentando"
+
+msgid "Swelling"
+msgstr "Inchando"
+
+msgid "Switch Profile"
+msgstr "Trocar Perfil"
+
+msgid "Switching"
+msgstr "Alternando"
+
+msgid "Switching Rules"
+msgstr "Regras de Troca"
+
+msgid "Symbol"
+msgstr "Símbolo"
+
+msgid "Symbolizing"
+msgstr "Simbolizando"
+
+msgid "Symetrical"
+msgstr "Simétrico"
+
+msgid "Sync"
+msgstr "Sincronizar"
+
+msgid "Synchronize"
+msgstr "Sincronizar"
+
+msgid "Synchronizing"
+msgstr "Sincronizando"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System Default"
+msgstr "Padrão do Sistema"
+
+msgid "Table of contents"
+msgstr "Índice"
+
+msgid "Tag"
+msgstr "Etiqueta"
+
+msgid "Tailoring"
+msgstr "Personalizando"
+
+msgid "Taking away"
+msgstr "Tirando"
+
+msgid "Taking off"
+msgstr "Tirando"
+
+msgid "Taking out"
+msgstr "Retirando"
+
+msgid "Talking"
+msgstr "Falando"
+
+msgid "Target"
+msgstr "Alvo"
+
+msgid "Targeting"
+msgstr "Mirando"
+
+msgid "Tarnished"
+msgstr "Manchado"
+
+msgid "Task"
+msgstr "Tarefa"
+
+msgid "Tattered"
+msgstr "Esfarrapado"
+
+msgid "Teaching"
+msgstr "Ensinando"
+
+msgid "Team"
+msgstr "Equipe"
+
+msgid "Template"
+msgstr "Modelo"
+
+msgid "Templating"
+msgstr "Modelando"
+
+msgid "Temporary"
+msgstr "Temporário"
+
+msgid "Tending"
+msgstr "Cuidando"
+
+msgid "Tense"
+msgstr "Tenso"
+
+msgid "Terminated"
+msgstr "Terminado"
+
+msgid "Terms"
+msgstr "Termos"
+
+msgid "Test"
+msgstr "Testar"
+
+msgid "Testing"
+msgstr "Testando"
+
+msgid "Testing the limits"
+msgstr "Testando os limites"
+
+msgid "Tethered to"
+msgstr "Amarrado a"
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "Text to Display"
+msgstr "Texto a Exibir"
+
+msgid "Texture"
+msgstr "Textura"
+
+msgid "There is one or more additional profile file or menu file embeded in profile"
+msgstr "Há um ou mais arquivos de perfil ou menu adicionais incorporados no perfil"
+
+msgid "There is one or more additional profile file or menu file embeded in profile\n"
+"you are importing. Please, choose if those those additionnal files should be\n"
+"imported as well and how they should be named.\n"
+"\n"
+"Please, note that if you choose to not import those files at all, some menus\n"
+"and profile switches in imported profile may not work as expected."
+msgstr "Há um ou mais arquivos de perfil ou menu adicionais incorporados no perfil\n"
+"que você está importando. Por favor, escolha se esses arquivos adicionais devem\n"
+"ser importados também e como devem ser nomeados.\n"
+"\n"
+"Observe que se optar por não importar esses arquivos, alguns menus\n"
+"e trocas de perfil no perfil importado podem não funcionar como esperado."
+
+msgid "There was an error with enabling emulation: <b>%s</b>"
+msgstr "Ocorreu um erro ao ativar a emulação: <b>%s</b>"
+
+msgid "This action cannot be undone"
+msgstr "Esta ação não pode ser desfeita"
+
+msgid "This action is not undoable!"
+msgstr "Esta ação não pode ser desfeita!"
+
+msgid "This dialog allows to setup traditional controllers to be used with SC Controller."
+msgstr "Este diálogo permite configurar controles tradicionais para serem usados com o SC Controller."
+
+msgid "This dialog allows to setup traditional controllers to be used with SC Controller.\n"
+"\n"
+"Please, select your controller from list bellow and click Next."
+msgstr "Este diálogo permite configurar controles tradicionais para uso com o SC Controller.\n"
+"\n"
+"Por favor, selecione seu controle na lista abaixo e clique em Próximo."
+
+msgid "This month"
+msgstr "Este mês"
+
+msgid "This week"
+msgstr "Esta semana"
+
+msgid "This will enable input emulation for <i>every application</i> and <i>all users</i> on this machine."
+msgstr "Isso ativará a emulação de entrada para <i>todos os aplicativos</i> e <i>todos os usuários</i> desta máquina."
+
+msgid "This will load missing uinput module."
+msgstr "Isso carregará o módulo uinput ausente."
+
+msgid "This will most likely prevent emulation from working."
+msgstr "Isso provavelmente impedirá que a emulação funcione."
+
+msgid "This year"
+msgstr "Este ano"
+
+msgid "Threshold"
+msgstr "Limite"
+
+msgid "Through"
+msgstr "Através"
+
+msgid "Throwing away"
+msgstr "Jogando fora"
+
+msgid "Thrusting"
+msgstr "Empurrando"
+
+msgid "Thwarted"
+msgstr "Frustrado"
+
+msgid "Tied to"
+msgstr "Ligado a"
+
+msgid "Tile"
+msgstr "Lado a lado"
+
+msgid "Tilt"
+msgstr "Inclinação"
+
+msgid "Time"
+msgstr "Hora"
+
+msgid "Timeout"
+msgstr "Tempo Esgotado"
+
+msgid "Tip"
+msgstr "Dica"
+
+msgid "To"
+msgstr "Para"
+
+msgid "Today"
+msgstr "Hoje"
+
+msgid "Toggle"
+msgstr "Alternar"
+
+msgid "Toggle Button"
+msgstr "Botão Alternável"
+
+msgid "Toggling"
+msgstr "Alternando"
+
+msgid "Tomorrow"
+msgstr "Amanhã"
+
+msgid "Tools"
+msgstr "Ferramentas"
+
+msgid "Top"
+msgstr "Topo"
+
+msgid "Topping"
+msgstr "Superando"
+
+msgid "Torn"
+msgstr "Rasgado"
+
+msgid "Touch"
+msgstr "Toque"
+
+msgid "Touch Action"
+msgstr "Ação de Toque"
+
+msgid "Touch Pad"
+msgstr "Pad de Toque"
+
+msgid "Touching down"
+msgstr "Pousando"
+
+msgid "Touchpad Input Rotation"
+msgstr "Rotação de Entrada do Touchpad"
+
+msgid "Towing"
+msgstr "Rebocando"
+
+msgid "Trackball Mode"
+msgstr "Modo Trackball"
+
+msgid "Tracking"
+msgstr "Rastreamento"
+
+msgid "Trailing"
+msgstr "Ficando para trás"
+
+msgid "Training"
+msgstr "Treinando"
+
+msgid "Transferring"
+msgstr "Transferindo"
+
+msgid "Transforming"
+msgstr "Transformando"
+
+msgid "Translating"
+msgstr "Traduzindo"
+
+msgid "Translation"
+msgstr "Tradução"
+
+msgid "Transparency"
+msgstr "Transparência"
+
+msgid "Transporting"
+msgstr "Transportando"
+
+msgid "Trapping"
+msgstr "Prendendo"
+
+msgid "Traveling"
+msgstr "Viajando"
+
+msgid "Traversing"
+msgstr "Atravessando"
+
+msgid "Treasuring"
+msgstr "Valorizando"
+
+msgid "Treating"
+msgstr "Tratando"
+
+msgid "Trickling"
+msgstr "Gotejando"
+
+msgid "Trigger"
+msgstr "Gatilho"
+
+msgid "Trigger Action"
+msgstr "Ação de Gatilho"
+
+msgid "Trigger Level"
+msgstr "Nível do Gatilho"
+
+msgid "Trigger Pull Level"
+msgstr "Nível de Puxada do Gatilho"
+
+msgid "Trigger or Axis"
+msgstr "Gatilho ou Eixo"
+
+msgid "Triggers"
+msgstr "Gatilhos"
+
+msgid "Troubled"
+msgstr "Perturbado"
+
+msgid "Troubleshooting"
+msgstr "Solucionando problemas"
+
+msgid "True"
+msgstr "Verdadeiro"
+
+msgid "True to"
+msgstr "Fiel a"
+
+msgid "Try disabling this option if your controller stops working randomly."
+msgstr "Tente desabilitar esta opção se o seu controle parar de funcionar aleatoriamente."
+
+msgid "Try disabling this option your controller stops working randomly."
+msgstr "Tente desativar esta opção se o controle parar de funcionar aleatoriamente."
+
+msgid "Tugging"
+msgstr "Puxando"
+
+msgid "Tuning"
+msgstr "Ajuste fino"
+
+msgid "Turn Controller OFF"
+msgstr "Desligar Controle"
+
+msgid "Turn Off Controller"
+msgstr "Desligar Controle"
+
+msgid "Turning"
+msgstr "Virando"
+
+msgid "Turning off"
+msgstr "Desligando"
+
+msgid "Turning on"
+msgstr "Ligando"
+
+msgid "Tutoring"
+msgstr "Tutorando"
+
+msgid "Tweaking"
+msgstr "Ajustando"
+
+msgid "Twisting"
+msgstr "Torcendo"
+
+msgid "Two separate rings"
+msgstr "Dois anéis separados"
+
+msgid "Two sticks, asymmetrical (x360 pad)"
+msgstr "Dois analógicos, assimétrico (pad x360)"
+
+msgid "Two sticks, symmetrical (PSx Controller)"
+msgstr "Dois analógicos, simétrico (Controle PSx)"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "USB HID"
+msgstr "USB HID"
+
+msgid "USB HID (recommended)"
+msgstr "USB HID (recomendado)"
+
+msgid "USB dongle was removed."
+msgstr "Dongle USB foi removido."
+
+msgid "Unacceptable"
+msgstr "Inaceitável"
+
+msgid "Unavailable"
+msgstr "Indisponível"
+
+msgid "Unbinding"
+msgstr "Desvinculando"
+
+msgid "Unbounded"
+msgstr "Sem limites"
+
+msgid "Unchanged"
+msgstr "Inalterado"
+
+msgid "Uncovering"
+msgstr "Descobrindo"
+
+msgid "Underlining"
+msgstr "Sublinhando"
+
+msgid "Underpinning"
+msgstr "Sustentando"
+
+msgid "Underscoring"
+msgstr "Sublinhando"
+
+msgid "Understanding"
+msgstr "Entendendo"
+
+msgid "Undo"
+msgstr "Desfazer"
+
+msgid "Undoing"
+msgstr "Desfazendo"
+
+msgid "Unedited"
+msgstr "Não editado"
+
+msgid "Unfreezing"
+msgstr "Descongelando"
+
+msgid "Ungroup"
+msgstr "Desagrupar"
+
+msgid "Ungrouping"
+msgstr "Desagrupando"
+
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+msgid "United with"
+msgstr "Unido com"
+
+msgid "Unknown"
+msgstr "Desconhecido"
+
+msgid "Unknown App ID %s"
+msgstr "ID de aplicativo desconhecido %s"
+
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+msgid "Unlinking"
+msgstr "Desvinculando"
+
+msgid "Unloading"
+msgstr "Descarregando"
+
+msgid "Unlock"
+msgstr "Destravar"
+
+msgid "Unlocked"
+msgstr "Destravado"
+
+msgid "Unlocking"
+msgstr "Destravando"
+
+msgid "Unmasking"
+msgstr "Desmascarando"
+
+msgid "Unmounting"
+msgstr "Desmontando"
+
+msgid "Unpairing"
+msgstr "Desemparelhando"
+
+msgid "Unprotected"
+msgstr "Desprotegido"
+
+msgid "Unpublished"
+msgstr "Não publicado"
+
+msgid "Unregister controller?"
+msgstr "Desregistrar controle?"
+
+msgid "Unrestricted"
+msgstr "Irrestrito"
+
+msgid "Unsatisfactory"
+msgstr "Insatisfatório"
+
+msgid "Unsaved changes"
+msgstr "Alterações não salvas"
+
+msgid "Unselected"
+msgstr "Não selecionado"
+
+msgid "Unset"
+msgstr "Não definido"
+
+msgid "Unveiling"
+msgstr "Revelando"
+
+msgid "Unwavering in"
+msgstr "Inabalável em"
+
+msgid "Unwell"
+msgstr "Adoentado"
+
+msgid "Unwinding"
+msgstr "Descontraindo"
+
+msgid "Up"
+msgstr "Cima"
+
+msgid "Up to date"
+msgstr "Atualizado"
+
+msgid "Update"
+msgstr "Atualizar"
+
+msgid "Updated"
+msgstr "Atualizado"
+
+msgid "Updating"
+msgstr "Atualizando"
+
+msgid "Upgrading"
+msgstr "Atualizando"
+
+msgid "Upholding"
+msgstr "Sustentando"
+
+msgid "Upload"
+msgstr "Enviar"
+
+msgid "Uploading"
+msgstr "Enviando"
+
+msgid "Upper"
+msgstr "Superior"
+
+msgid "Uprising"
+msgstr "Levantando"
+
+msgid "Urgent"
+msgstr "Urgente"
+
+msgid "Use Action Sets"
+msgstr "Usar Conjuntos de Ações"
+
+msgid "Use Serial Numbers to Identify Controllers"
+msgstr "Usar Números de Série para Identificar Controles"
+
+msgid "Use default"
+msgstr "Usar padrão"
+
+msgid "Use regular expression"
+msgstr "Usar expressão regular"
+
+msgid "Used"
+msgstr "Usado"
+
+msgid "Used to control menus unless profile sets something different"
+msgstr "Usado para controlar menus a menos que o perfil defina algo diferente"
+
+msgid "User"
+msgstr "Usuário"
+
+msgid "User-mode driver and GTK3 based GUI for the Steam Controller, DS4 and similar controllers"
+msgstr "Driver em modo de usuário e interface gráfica baseada em GTK3 para o Steam Controller,\nDS4 e controles similares."
+
+msgid "Username"
+msgstr "Nome de usuário"
+
+msgid "Uttering"
+msgstr "Proferindo"
+
+msgid "Valid"
+msgstr "Válido"
+
+msgid "Validating"
+msgstr "Validando"
+
+msgid "Validation"
+msgstr "Validação"
+
+msgid "Value"
+msgstr "Valor"
+
+msgid "Valuing"
+msgstr "Valorizando"
+
+msgid "Variable"
+msgstr "Variável"
+
+msgid "Variant"
+msgstr "Variante"
+
+msgid "Veiling"
+msgstr "Velando"
+
+msgid "Verification"
+msgstr "Verificação"
+
+msgid "Verifying"
+msgstr "Verificando"
+
+msgid "Version"
+msgstr "Versão"
+
+msgid "Very high"
+msgstr "Muito alto"
+
+msgid "Very low"
+msgstr "Muito baixo"
+
+msgid "Vetoed"
+msgstr "Vetado"
+
+msgid "View"
+msgstr "Visualizar"
+
+msgid "Viewing"
+msgstr "Visualizando"
+
+msgid "Visible"
+msgstr "Visível"
+
+msgid "Visible layers"
+msgstr "Camadas visíveis"
+
+msgid "Visible to all"
+msgstr "Visível para todos"
+
+msgid "Visible to members"
+msgstr "Visível para membros"
+
+msgid "Visible to owner"
+msgstr "Visível para o proprietário"
+
+msgid "Voicing"
+msgstr "Expressando"
+
+msgid "Voiding"
+msgstr "Anulando"
+
+msgid "Voltar"
+msgstr "Voltar"
+
+msgid "Volunteering"
+msgstr "Voluntariando"
+
+msgid "Wailing"
+msgstr "Lamentando"
+
+msgid "Waiting"
+msgstr "Aguardando"
+
+msgid "Waiting for"
+msgstr "Esperando por"
+
+msgid "Waking"
+msgstr "Acordando"
+
+msgid "Waking up"
+msgstr "Acordando"
+
+msgid "Wandering"
+msgstr "Vagando"
+
+msgid "Wanting"
+msgstr "Querendo"
+
+msgid "Warning level"
+msgstr "Nível de aviso"
+
+msgid "Warning: evdev access mode was auto-selected for HID device."
+msgstr "Aviso: o modo de acesso evdev foi selecionado automaticamente para dispositivo HID."
+
+msgid "Warning: evdev access mode was auto-selected for HID device.\n"
+"\n"
+"That means your account lacks permissons needed to read controller exclusivelly. You can still use controller in evdev mode, but you may have trouble with some games detecting it twice.\n"
+"\n"
+"&lt;a href=\"https://github.com/kozec/sc-controller/wiki/Evdev-and-HID-mode-for-non-steam-controllers\"&gt;Click here&lt;/a&gt; for more info."
+msgstr "Aviso: o modo de acesso evdev foi selecionado automaticamente para o dispositivo HID.\n"
+"\n"
+"Isso significa que sua conta não tem permissões para ler o controle exclusivamente. Você ainda pode usar em modo evdev, mas pode ter problemas com alguns jogos detectando-o duas vezes.\n"
+"\n"
+"&lt;a href=\"https://github.com/kozec/sc-controller/wiki/Evdev-and-HID-mode-for-non-steam-controllers\"&gt;Clique aqui&lt;/a&gt; para mais informações."
+
+msgid "Warning: evdev access mode was auto-selected for HID device.\n"
+"\n"
+"That means your account lacks permissons needed to read controller exclusivelly. You can still use controller in evdev mode, but you may have trouble with some games detecting it twice.\n"
+"\n"
+"<a href=\"https://github.com/kozec/sc-controller/wiki/Evdev-and-HID-mode-for-non-steam-controllers\">Click here</a> for more info."
+msgstr "Aviso: o modo de acesso evdev foi selecionado automaticamente para o dispositivo HID.\n"
+"\n"
+"Isso significa que sua conta não tem permissões para ler o controle exclusivamente. Você ainda pode usar em modo evdev, mas pode ter problemas com alguns jogos detectando-o duas vezes.\n"
+"\n"
+"<a href=\"https://github.com/kozec/sc-controller/wiki/Evdev-and-HID-mode-for-non-steam-controllers\">Clique aqui</a> para mais informações."
+
+msgid "Watching"
+msgstr "Observando"
+
+msgid "Watching over"
+msgstr "Vigiando"
+
+msgid "Weeping"
+msgstr "Chorando"
+
+msgid "Weight"
+msgstr "Peso"
+
+msgid "Welcome to the version &lt;b&gt;%s&lt;/b&gt;"
+msgstr "Bem-vindo à versão &lt;b&gt;%s&lt;/b&gt;"
+
+msgid "Welcome to the version <b>%s</b>"
+msgstr "Bem-vindo à versão <b>%s</b>"
+
+msgid "Welcome to the version <b>%s</b>."
+msgstr "Bem-vindo à versão <b>%s</b>."
+
+msgid "Wheel"
+msgstr "Roda"
+
+msgid "Wheezing"
+msgstr "Chiando"
+
+msgid "When window..."
+msgstr "Quando a janela..."
+
+msgid "Widening"
+msgstr "Alargando"
+
+msgid "Width"
+msgstr "Largura"
+
+msgid "Wincing"
+msgstr "Fazendo careta"
+
+msgid "Window"
+msgstr "Janela"
+
+msgid "Window switcher"
+msgstr "Alternador de janelas"
+
+msgid "Winning back"
+msgstr "Reconquistando"
+
+msgid "Wiping"
+msgstr "Apagando"
+
+msgid "Wiping out"
+msgstr "Exterminando"
+
+msgid "Wishing"
+msgstr "Desejando"
+
+msgid "Withdrawing"
+msgstr "Retirando"
+
+msgid "Witnessing"
+msgstr "Testemunhando"
+
+msgid "Word"
+msgstr "Palavra"
+
+msgid "Working"
+msgstr "Trabalhando"
+
+msgid "Worn"
+msgstr "Usado"
+
+msgid "Worried"
+msgstr "Preocupado"
+
+msgid "Worshiping"
+msgstr "Venerando"
+
+msgid "Wounded"
+msgstr "Ferido"
+
+msgid "Wrapping up"
+msgstr "Finalizando"
+
+msgid "Wrecking"
+msgstr "Destruindo"
+
+msgid "Write"
+msgstr "Escrever"
+
+msgid "X Axis"
+msgstr "Eixo X"
+
+msgid "X Axis Controlled by"
+msgstr "Eixo X controlado por"
+
+msgid "Y Axis"
+msgstr "Eixo Y"
+
+msgid "Yaw"
+msgstr "Guinada"
+
+msgid "Yawning"
+msgstr "Bocejando"
+
+msgid "Yearning for"
+msgstr "Ansiando por"
+
+msgid "Yelling"
+msgstr "Gritando"
+
+msgid "Yellow"
+msgstr "Amarelo"
+
+msgid "Yes"
+msgstr "Sim"
+
+msgid "Yesterday"
+msgstr "Ontem"
+
+msgid "You are about to save changes over template.\n"
+"Are you sure?"
+msgstr "Você está prestes a salvar alterações sobre um modelo.\n"
+"Tem certeza?"
+
+msgid "You can also drag-n-drop profile file on main application window"
+msgstr "Você também pode arrastar e soltar o arquivo de perfil na janela principal"
+
+msgid "You don't have access to controller device."
+msgstr "Você não tem acesso ao dispositivo do controle."
+
+msgid "You don't have required access to /dev/uinput."
+msgstr "Você não tem acesso necessário a /dev/uinput."
+
+msgid "You'll lose all settings for it"
+msgstr "Você perderá todas as configurações dele"
+
+msgid "Zeroing in on"
+msgstr "Focando em"
+
+msgid "Zoom in"
+msgstr "Ampliar"
+
+msgid "Zoom out"
+msgstr "Reduzir"
+
+msgid "_Add"
+msgstr "_Adicionar"
+
+msgid "_Apply"
+msgstr "_Aplicar"
+
+msgid "_Add icons"
+msgstr "_Adicionar ícones"
+
+msgid "_Save"
+msgstr "_Salvar"
+
+msgid "_Back"
+msgstr "_Voltar"
+
+msgid "_Change"
+msgstr "_Alterar"
+
+msgid "_Configure Controller"
+msgstr "_Configurar Controle"
+
+msgid "_Copy"
+msgstr "_Copiar"
+
+msgid "_Copy Menu"
+msgstr "_Copiar Menu"
+
+msgid "_Copy Profile"
+msgstr "_Copiar Perfil"
+
+msgid "_Delete Menu"
+msgstr "_Excluir Menu"
+
+msgid "_Delete Profile"
+msgstr "_Excluir Perfil"
+
+msgid "_Description"
+msgstr "_Descrição"
+
+msgid "_Edit Item"
+msgstr "_Editar Item"
+
+msgid "_Edit Pressed Action"
+msgstr "_Editar Ação ao Pressionar"
+
+msgid "_Emulation Enabled"
+msgstr "_Emulação Ativada"
+
+msgid "_Enable DS4 Controller Support"
+msgstr "_Ativar Suporte a Controle DS4"
+
+msgid "_Export Profile"
+msgstr "_Exportar Perfil"
+
+msgid "_Filename"
+msgstr "_Nome do arquivo"
+
+msgid "_Import SC-Controller Profile"
+msgstr "_Importar Perfil SC-Controller"
+
+msgid "_New Menu"
+msgstr "_Novo Menu"
+
+msgid "_New Profile"
+msgstr "_Novo Perfil"
+
+msgid "_Next"
+msgstr "_Próximo"
+
+msgid "_Paste"
+msgstr "_Colar"
+
+msgid "_Remove"
+msgstr "_Remover"
+
+msgid "_Restart Emulation"
+msgstr "_Reiniciar Emulação"
+
+msgid "_Rename Menu"
+msgstr "_Renomear Menu"
+
+msgid "_Rename Profile"
+msgstr "_Renomear Perfil"
+
+msgid "_Revert Profile to Defaults"
+msgstr "_Reverter Perfil para Padrões"
+
+msgid "_Settings"
+msgstr "_Configurações"
+
+msgid "_Turn Off Controller"
+msgstr "_Desligar Controle"
+
+msgid "_Use (A)"
+msgstr "_Usar (A)"
+
+msgid "and"
+msgstr "e"
+
+msgid "auto"
+msgstr "automático"
+
+msgid "button"
+msgstr "botão"
+
+msgid "click any button or..."
+msgstr "clique em qualquer botão ou..."
+
+msgid "click on axis or trigger"
+msgstr "clique em um eixo ou gatilho"
+
+msgid "column"
+msgstr "coluna"
+
+msgid "default"
+msgstr "padrão"
+
+msgid "forever"
+msgstr "para sempre"
+
+msgid "lstick"
+msgstr "analógico esq."
+
+msgid "message"
+msgstr "mensagem"
+
+msgid "not found"
+msgstr "(não encontrado)"
+
+msgid "or"
+msgstr "ou"
+
+msgid "or click on \"Fix Temporary\" button to attempt fix that should work until next restart."
+msgstr "ou clique no botão \"Correção Temporária\" para tentar uma correção que deve funcionar até o próximo reinício."
+
+msgid "rstick"
+msgstr "analógico dir."
+
+msgid "sudo fix-my-pc"
+msgstr "sudo consertar-meu-pc"
+
+msgid "there is one or more additional profile file or menu file embeded in profile"
+msgstr "há um ou mais arquivos de perfil ou menu adicionais incorporados no perfil"
+
+msgid "uinput kernel module is loaded, but /dev/uinput is missing."
+msgstr "O módulo uinput está carregado, mas /dev/uinput está ausente."
+
+msgid "uinput kernel module not loaded"
+msgstr "Módulo do kernel uinput não carregado"
+
+msgid "wheel"
+msgstr "roda"
+
+msgid "Select your preferred language"
+msgstr "Selecione seu idioma preferido"
+
+msgid "You need to restart SC Controller for the language change to take effect."
+msgstr "Você precisa reiniciar o SC Controller para que a mudança de idioma tenha efeito."
+
+msgid "English"
+msgstr "Inglês"
+
+msgid "Profile details"
+msgstr "Detalhes do perfil"
+
+msgid "Add icons"
+msgstr "Adicionar ícones"
+
+msgid "Button Input"
+msgstr "Entrada de botão"
+
+msgid "Choose Icon"
+msgstr "Selecione o ícone"
+
+msgid "Press a Key..."
+msgstr "Pressione uma tecla..."
+
+msgid "OSD Keyboard Bindings"
+msgstr "Atalhos de teclado OSD"

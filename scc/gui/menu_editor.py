@@ -47,6 +47,7 @@ class MenuEditor(Editor):
 
 	def setup_widgets(self):
 		self.builder = Gtk.Builder()
+		self.builder.set_translation_domain("sc-controller")
 		self.builder.add_from_file(os.path.join(self.app.gladepath, self.GLADE))
 		lblItemIconName  = self.builder.get_object("lblItemIconName")
 		vbChangeItemIcon = self.builder.get_object("vbChangeItemIcon")

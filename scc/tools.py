@@ -33,7 +33,7 @@ except ImportError:
 	pass
 
 log = logging.getLogger("tools.py")
-_ = lambda x : x
+from scc.i18n import gettext_func as _
 
 LOG_FORMAT = "%(levelname)s %(name)-13s %(message)s"
 

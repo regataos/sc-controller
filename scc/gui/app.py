@@ -78,6 +78,7 @@ class App(Gtk.Application, UserDataManager, BindingEditor):
 		self.context_menu_for = None
 		self.daemon_changed_profile = False
 		self.osd_mode = False	# In OSD mode, only active profile can be editted
+		self.controllers_only = False	# Open Controllers tab only
 		self.osd_mode_mapper = None
 		self.background = None
 		self.outdated_version = None
@@ -97,6 +98,7 @@ class App(Gtk.Application, UserDataManager, BindingEditor):
 	def setup_widgets(self):
 		# Important stuff
 		self.builder = Gtk.Builder()
+		self.builder.set_translation_domain("sc-controller")
 		self.builder.add_from_file(os.path.join(self.gladepath, "app.glade"))
 		self.builder.connect_signals(self)
 		self.window = self.builder.get_object("window")
@@ -1369,6 +1371,7 @@ class App(Gtk.Application, UserDataManager, BindingEditor):
 	def do_local_options(self, trash, lo):
 		set_logging_level(lo.contains("verbose"), lo.contains("debug") )
 		self.osd_mode = lo.contains("osd")
+		self.controllers_only = lo.contains("controllers-only")
 		return -1
 
 
@@ -1393,7 +1396,25 @@ class App(Gtk.Application, UserDataManager, BindingEditor):
 
 
 	def do_activate(self, *a):
+		# Ensure UI is built
 		self.builder.get_object("window").show()
+		
+		if getattr(self, "controllers_only", False):
+			from scc.gui.global_settings import GlobalSettings
+			gs = GlobalSettings(self)
+			# Select Controllers tab (GtkNotebook is 0-based; Controllers is page 2)
+			nb = gs.builder.get_object("notebook7")
+			if nb is not None:
+				nb.set_current_page(2)
+				nb.set_show_tabs(False)
+				nb.set_show_border(False)
+			# Close entire app when this window closes (useful for external launchers)
+			gs.window.connect("destroy", lambda *args: self.quit())
+			gs.show(self.window)
+			# Hide main window
+			self.builder.get_object("window").hide()
+			return
+
 		if (self.config['gui']['minimize_on_start'] and self.statusicon
 					and self.statusicon.get_property("active")):
 			self.builder.get_object("window").hide()
@@ -1492,6 +1513,7 @@ class App(Gtk.Application, UserDataManager, BindingEditor):
 		aso("verbose", b"v", "Be verbose")
 		aso("debug",   b"d", "Be more verbose (debug mode)")
 		aso("osd",     b"o", "OSD mode (OSD-controllable editor for current profile)")
+		aso("controllers-only", b"c", "Open Controllers settings window only")
 
 
 	def save_profile_selection(self, path):

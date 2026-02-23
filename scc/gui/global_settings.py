@@ -35,6 +35,17 @@ import logging
 import traceback
 log = logging.getLogger("GS")
 
+
+# ══════════════════════════════════════════════════════════════════════
+# Language Selector
+# ══════════════════════════════════════════════════════════════════════
+AVAILABLE_LANGUAGES = [
+	("system", "System Default"),
+	("en_US",  "English"),
+	("pt_BR",  "Português (Brasil)"),
+]
+# ══════════════════════════════════════════════════════════════════════
+
 class GlobalSettings(Editor, UserDataManager, ComboSetter):
 	GLADE = "global_settings.glade"
 
@@ -60,6 +71,7 @@ class GlobalSettings(Editor, UserDataManager, ComboSetter):
 	]
 
 	def __init__(self, app):
+		self._recursing = False
 		UserDataManager.__init__(self)
 		self.app = app
 		self.setup_widgets()
@@ -136,6 +148,9 @@ class GlobalSettings(Editor, UserDataManager, ComboSetter):
 		(self.builder.get_object("cbNewRelease")
 				.set_active(self.app.config['gui']['news']['enabled']))
 		self._recursing = False
+		
+		# Setup language selector
+		self.setup_language_selector()
 
 		try:
 			import evdev
@@ -826,6 +841,68 @@ class GlobalSettings(Editor, UserDataManager, ComboSetter):
 			self.load_controllers()
 		d.destroy()
 
+
+
+		self.setup_language_selector()
+
+	def setup_language_selector(self):
+		""" Populates the language combo box and connects signal. """
+		cb = self.builder.get_object("cbLanguage")
+		if cb is None:
+			print("[i18n] WARNING: cbLanguage not found in glade!")
+			return
+		
+		# Clear and populate
+		cb.remove_all()
+		for lang_id, lang_name in AVAILABLE_LANGUAGES:
+			cb.append(lang_id, lang_name)
+		
+		# Enable the widget
+		cb.set_sensitive(True)
+		print(f"[i18n] Language selector populated with {len(AVAILABLE_LANGUAGES)} options")
+		
+		# Connect signal
+		cb.connect("changed", self.on_cbLanguage_changed)
+		
+		# Load current
+		self.load_language()
+	
+	def load_language(self):
+		""" Loads the current language setting into the combo box. """
+		cb = self.builder.get_object("cbLanguage")
+		if cb is None:
+			return
+		self._recursing = True
+		current = self.app.config.get('language', 'system')
+		valid_ids = [lang_id for lang_id, _ in AVAILABLE_LANGUAGES]
+		if current not in valid_ids:
+			current = 'system'
+		cb.set_active_id(current)
+		self._recursing = False
+	
+	def on_cbLanguage_changed(self, cb):
+		""" Called when user selects a different language. """
+		if self._recursing:
+			return
+		lang_id = cb.get_active_id()
+		if not lang_id:
+			return
+		
+		# Save to config
+		self.app.config['language'] = lang_id
+		self.app.save_config()
+		
+		# Show restart dialog
+		from scc.i18n import make_dialog
+		d = make_dialog(
+			self,
+			'info',
+			_('Language Changed'),
+			_('Please restart SC Controller for the language change to take effect.'),
+			'ok'
+		)
+		d.run()
+		d.destroy()
 
 	def load_controllers(self, *a):
 		lstControllers = self.builder.get_object("lstControllers")

@@ -62,6 +62,7 @@ class KeyGrabber:
 
 	def setup_widgets(self):
 		self.builder = Gtk.Builder()
+		self.builder.set_translation_domain("sc-controller")
 		self.builder.add_from_file(os.path.join(self.app.gladepath, self.GLADE))
 		self.window = self.builder.get_object("KeyGrab")
 		self.builder.connect_signals(self)

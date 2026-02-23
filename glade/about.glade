@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated with glade 3.40.0 -->
-<interface domain="">
+<interface>
   <requires lib="gtk+" version="3.24"/>
   <object class="GtkDialog" id="Dialog">
     <property name="can-focus">False</property>
@@ -20,11 +20,12 @@
             <property name="layout-style">end</property>
             <child>
               <object class="GtkButton" id="btnClose">
-                <property name="label">gtk-close</property>
+                <property name="label" translatable="yes">Close</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
-                <property name="use-stock">True</property>
+                <!-- Don't use stock here; it prevents our gettext translation from being applied reliably -->
+                <property name="use-stock">False</property>
                 <signal name="clicked" handler="on_dialog_response" swapped="no"/>
               </object>
               <packing>

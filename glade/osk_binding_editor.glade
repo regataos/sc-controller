@@ -429,7 +429,7 @@
       <object class="GtkHeaderBar" id="header3">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
-        <property name="title">OSD Keyboard Bindings</property>
+        <property name="title" translatable="yes">OSD Keyboard Bindings</property>
         <property name="show-close-button">True</property>
         <child>
           <placeholder/>

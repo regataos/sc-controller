@@ -23,6 +23,7 @@ from scc.config import Config
 
 import evdev
 import os, logging, json, re
+from scc.i18n import _
 log = logging.getLogger("CRegistration")
 
 
@@ -380,7 +381,7 @@ class ControllerRegistration(Editor):
 				cbDS4.set_active(Config()['drivers']['ds4drv'])
 				stDialog.set_visible_child(pages[3])
 				btBack.set_sensitive(True)
-				btNext.set_label("_Restart Emulation")
+				btNext.set_label(_("Restart Emulation"))
 				return
 			stDialog.set_visible_child(pages[1])
 			self.load_buttons()
@@ -421,10 +422,10 @@ class ControllerRegistration(Editor):
 			rvController = self.builder.get_object("rvController")
 			self._controller_image.get_parent().remove(self._controller_image)
 			rvController.add(self._controller_image)
-			btNext.set_label("_Next")
+			btNext.set_label(_("Next"))
 		elif index == 3:
 			stDialog.set_visible_child(pages[0])
-			btNext.set_label("_Next")
+			btNext.set_label(_("Next"))
 			btBack.set_sensitive(False)
 			btNext.set_sensitive(True)
 
@@ -502,8 +503,10 @@ class ControllerRegistration(Editor):
 		pages = stDialog.get_children()
 		stDialog.set_visible_child(pages[2])
 		cbEmulateC.grab_focus()
-		btNext.set_label("_Save")
-		btNext.set_sensitive(True)
+		# This label is changed at runtime, so it must be translated manually.
+		# Use the existing "Save" msgid from the translation catalog.
+		btNext.set_label(_("Save"))
+		btNext.set_use_underline(False)
 
 
 	def on_device_open_failed(self, *a):

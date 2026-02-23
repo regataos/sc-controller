@@ -200,7 +200,7 @@ Please, select your controller from list bellow and click Next.</property>
             </child>
             <child>
               <object class="GtkButton" id="btnRefresh">
-                <property name="label">gtk-refresh</property>
+                <property name="label" translatable="yes">Refresh</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
@@ -988,7 +988,7 @@ future inputs or even crash.</property>
       <object class="GtkHeaderBar" id="header">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
-        <property name="title">Controller Registration</property>
+        <property name="title" translatable="yes">Controller Registration</property>
         <property name="show-close-button">True</property>
         <child>
           <object class="GtkButton" id="btBack">
@@ -1058,7 +1058,7 @@ future inputs or even crash.</property>
         </child>
         <child>
           <object class="GtkButton" id="btCancelInput">
-            <property name="label">gtk-cancel</property>
+            <property name="label" translatable="yes">Cancel</property>
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="receives-default">True</property>
@@ -1081,7 +1081,7 @@ future inputs or even crash.</property>
       <object class="GtkHeaderBar" id="hb485">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
-        <property name="title">Button Input</property>
+        <property name="title" translatable="yes">Button Input</property>
         <child>
           <placeholder/>
         </child>

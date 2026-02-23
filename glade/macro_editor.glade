@@ -309,7 +309,7 @@
         </child>
         <child>
           <object class="GtkButton" id="btClear">
-            <property name="label">gtk-clear</property>
+            <property name="label" translatable="yes">Clear</property>
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="receives-default">True</property>
@@ -323,7 +323,7 @@
         </child>
         <child>
           <object class="GtkButton" id="btOK">
-            <property name="label">gtk-ok</property>
+            <property name="label" translatable="yes">OK</property>
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="can-default">True</property>

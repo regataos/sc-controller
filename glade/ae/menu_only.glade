@@ -62,7 +62,7 @@
         </child>
         <child>
           <object class="GtkButton" id="btEditMenu">
-            <property name="label">gtk-edit</property>
+            <property name="label" translatable="yes">Edit</property>
             <property name="visible">True</property>
             <property name="sensitive">False</property>
             <property name="can-focus">True</property>

@@ -7,6 +7,8 @@ Yellow='\033[0;33m'
 Purple='\033[0;35m'
 NoColor='\033[0m'
 
+python="python3.11"
+
 function testDeps() {
 	# Tests if dependencies are present on the system before attempting to build
 #	if ! command -v python3-config >/dev/null; then
